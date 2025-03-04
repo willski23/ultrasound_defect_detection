@@ -31,8 +31,8 @@ for directory in [RAW_DATA_DIR, PROCESSED_DATA_DIR, MASK_DIR, ORGANIZED_DATA_DIR
 
 # Dataset parameters
 IMAGE_SIZE = (224, 224)  # Target image size for ResNet50
-BATCH_SIZE = 16
-NUM_AUGMENTATIONS_PER_IMAGE = 5
+BATCH_SIZE = 32 # adjust depending on system specifications (GPU present: 32, 64, or 128)
+NUM_AUGMENTATIONS_PER_IMAGE = 3
 
 # Conditions
 CONDITIONS = [

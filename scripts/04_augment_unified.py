@@ -26,6 +26,8 @@ def main():
                         help="Number of augmentations per image")
     parser.add_argument("--visualize", action="store_true",
                         help="Visualize examples of augmentations")
+    parser.add_argument("--skip_visualization", action="store_true",
+                        help="Skip visualization to speed up augmentation")
 
     args = parser.parse_args()
 
@@ -54,7 +56,7 @@ def main():
     )
 
     # Visualize augmentations if requested
-    if args.visualize:
+    if args.visualize and not args.skip_visualization:
         print("\nGenerating augmentation examples...")
 
         # Create visualization directory

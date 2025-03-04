@@ -18,7 +18,18 @@ from src.model.network import build_unet_resnet50, build_unet, get_model_summary
 from src.model.train import train_model
 import tensorflow as tf
 import pickle
+from tensorflow.keras.mixed_precision import global_policy, set_global_policy
 
+# Enable mixed precision training for faster performance on compatible GPUs
+def enable_mixed_precision():
+    try:
+        policy = 'mixed_float16'
+        set_global_policy(policy)
+        print("Mixed precision training enabled")
+        return True
+    except Exception as e:
+        print(f"Could not enable mixed precision training: {e}")
+        return False
 
 def inspect_dataset(dataset, name):
     """
@@ -91,6 +102,9 @@ def main():
                         help="Visualize dataset samples before training")
 
     args = parser.parse_args()
+
+    # Enable mixed precision for faster training
+    using_mixed_precision = enable_mixed_precision()
 
     # Check if data directory exists
     if not os.path.exists(args.data_dir):

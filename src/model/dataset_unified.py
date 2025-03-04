@@ -153,23 +153,16 @@ def prepare_unified_dataset(base_dir, img_size=(224, 224), batch_size=16,
 
     return train_ds, val_ds, test_ds, dataset_info
 
+
 def create_tf_dataset(image_paths, mask_paths, img_size, batch_size, weights=None, shuffle=False):
     """
-    Create a TensorFlow dataset from image and mask paths.
-
-    Args:
-        image_paths (list): List of image file paths
-        mask_paths (list): List of mask file paths
-        img_size (tuple): Target image size (height, width)
-        batch_size (int): Batch size
-        weights (list): Sample weights for class balancing
-        shuffle (bool): Whether to shuffle the dataset
-
-    Returns:
-        tf.data.Dataset: TensorFlow dataset
+    Create a TensorFlow dataset from image and mask paths, with caching for performance.
     """
     # Use standard dataset creation without weights
     dataset = tf.data.Dataset.from_tensor_slices((image_paths, mask_paths))
+
+    # Cache file paths before preprocessing
+    dataset = dataset.cache(f"/tmp/tf_cache_{hash(str(image_paths))}")
 
     # Map the preprocessing function
     dataset = dataset.map(

@@ -11,18 +11,88 @@ import matplotlib.pyplot as plt
 import time
 import json
 import random
+from multiprocessing import Pool, cpu_count
+
+
+def process_single_augmentation(args):
+    """Process a single image augmentation in parallel"""
+    image_file, aug_idx, input_dir, output_dir, metadata, data_gen_args, num_elements = args
+
+    # Get base name from image file
+    base_name = os.path.splitext(image_file)[0]
+
+    # Skip if no metadata
+    if base_name not in metadata:
+        return None
+
+    # Get metadata for this image
+    img_metadata = metadata[base_name]
+    pattern = img_metadata.get("pattern", "unknown")
+
+    # Load image and mask
+    image_path = os.path.join(input_dir, "images", image_file)
+    mask_file = f"{base_name}_mask.png"
+    mask_path = os.path.join(input_dir, "masks", mask_file)
+
+    if not os.path.exists(mask_path):
+        return None
+
+    image = cv2.imread(image_path)
+    if image is None:
+        return None
+
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    image = np.expand_dims(image, 0)  # Add batch dimension
+
+    mask = cv2.imread(mask_path, cv2.IMREAD_GRAYSCALE)
+    if mask is None:
+        return None
+
+    mask = np.expand_dims(mask, 0)  # Add batch dimension
+    mask = np.expand_dims(mask, 3)  # Add channel dimension
+
+    # Use a different seed for each augmentation
+    aug_seed = int(time.time()) + aug_idx + hash(image_file) % 10000
+
+    # Create image data generator
+    image_datagen = ImageDataGenerator(**data_gen_args)
+    mask_datagen = ImageDataGenerator(**data_gen_args)
+
+    # New filename for augmented image
+    aug_base_name = f"{base_name}_aug{aug_idx}"
+    aug_image_file = f"{aug_base_name}.png"
+    aug_mask_file = f"{aug_base_name}_mask.png"
+
+    # Output paths
+    aug_image_path = os.path.join(output_dir, "images", aug_image_file)
+    aug_mask_path = os.path.join(output_dir, "masks", aug_mask_file)
+
+    # Generate and save augmented image
+    image_generator = image_datagen.flow(
+        image,
+        batch_size=1,
+        seed=aug_seed
+    )
+    aug_image = next(image_generator)[0].astype(np.uint8)
+    cv2.imwrite(aug_image_path, cv2.cvtColor(aug_image, cv2.COLOR_RGB2BGR))
+
+    # Generate and save augmented mask
+    mask_generator = mask_datagen.flow(
+        mask,
+        batch_size=1,
+        seed=aug_seed
+    )
+    aug_mask = next(mask_generator)[0, :, :, 0].astype(np.uint8)
+    cv2.imwrite(aug_mask_path, aug_mask)
+
+    # Copy the original metadata for the augmented image
+    return (aug_base_name, img_metadata.copy(), pattern)
+
 
 def augment_unified_data(input_dir, output_dir, num_augmentations=5):
     """
     Augment images and their corresponding masks from the unified data structure.
-
-    Args:
-        input_dir (str): Base directory containing unified data
-        output_dir (str): Base directory for augmented unified data
-        num_augmentations (int): Number of augmentations per image
-
-    Returns:
-        dict: Statistics about the augmentation process and updated metadata
+    Now using parallel processing for speed.
     """
     # Create output directories
     os.makedirs(os.path.join(output_dir, "images"), exist_ok=True)
@@ -39,10 +109,6 @@ def augment_unified_data(input_dir, output_dir, num_augmentations=5):
     # Create new metadata for augmented data
     augmented_metadata = metadata.copy()
 
-    # Input and output paths
-    image_dir = os.path.join(input_dir, "images")
-    mask_dir = os.path.join(input_dir, "masks")
-
     # Statistics dictionary
     stats = {
         "original": 0,
@@ -50,10 +116,10 @@ def augment_unified_data(input_dir, output_dir, num_augmentations=5):
         "by_pattern": {}
     }
 
-    print(f"Augmenting unified data...")
+    print(f"Copying original files...")
 
     # Get list of images
-    image_files = [f for f in os.listdir(image_dir) if f.endswith('.png')]
+    image_files = [f for f in os.listdir(os.path.join(input_dir, "images")) if f.endswith('.png')]
 
     # Copy original files first (no augmentation)
     for image_file in tqdm(image_files, desc="Copying original files"):
@@ -61,13 +127,13 @@ def augment_unified_data(input_dir, output_dir, num_augmentations=5):
 
         # Copy original image
         shutil.copy(
-            os.path.join(image_dir, image_file),
+            os.path.join(input_dir, "images", image_file),
             os.path.join(output_dir, "images", image_file)
         )
 
         # Copy corresponding mask
         mask_file = f"{base_name}_mask.png"
-        mask_path = os.path.join(mask_dir, mask_file)
+        mask_path = os.path.join(input_dir, "masks", mask_file)
 
         if os.path.exists(mask_path):
             shutil.copy(
@@ -87,101 +153,42 @@ def augment_unified_data(input_dir, output_dir, num_augmentations=5):
 
     # Define augmentation parameters
     data_gen_args = dict(
-        rotation_range=10,            # Rotation within 10 degrees
-        width_shift_range=0.1,        # Horizontal shift
-        height_shift_range=0.1,       # Vertical shift
-        brightness_range=[0.8, 1.2],  # Brightness adjustment
-        shear_range=5,                # Shear transformation
-        zoom_range=0.1,               # Zoom in/out
-        horizontal_flip=True,         # Horizontal flip
-        fill_mode='nearest'           # How to fill newly created pixels
+        rotation_range=10,
+        width_shift_range=0.1,
+        height_shift_range=0.1,
+        brightness_range=[0.8, 1.2],
+        shear_range=5,
+        zoom_range=0.1,
+        horizontal_flip=True,
+        fill_mode='nearest'
     )
 
-    # Create generators with the same seed for images and masks
-    image_datagen = ImageDataGenerator(**data_gen_args)
-    mask_datagen = ImageDataGenerator(**data_gen_args)
+    print(f"Augmenting images in parallel...")
 
-    # Process each image and its mask
-    for image_file in tqdm(image_files, desc="Augmenting images"):
+    # Create task list for parallel processing
+    tasks = []
+    for image_file in image_files:
         base_name = os.path.splitext(image_file)[0]
+        if base_name in metadata:  # Only process images with metadata
+            for aug_idx in range(num_augmentations):
+                tasks.append((image_file, aug_idx, input_dir, output_dir, metadata, data_gen_args, 128))
 
-        # Skip if no metadata
-        if base_name not in metadata:
-            print(f"Warning: No metadata found for {image_file}, skipping augmentation")
-            continue
+    # Process tasks in parallel
+    num_processes = max(1, cpu_count() - 1)  # Leave one CPU free
+    print(f"Using {num_processes} processes for augmentation...")
 
-        # Get metadata for this image
-        img_metadata = metadata[base_name]
-        pattern = img_metadata.get("pattern", "unknown")
+    results = []
+    with Pool(processes=num_processes) as pool:
+        for result in tqdm(pool.imap_unordered(process_single_augmentation, tasks), total=len(tasks),
+                           desc="Augmenting images"):
+            if result:
+                aug_base_name, aug_metadata, pattern = result
+                augmented_metadata[aug_base_name] = aug_metadata
+                stats["augmented"] += 1
 
-        # Load image and mask
-        image_path = os.path.join(image_dir, image_file)
-        mask_file = f"{base_name}_mask.png"
-        mask_path = os.path.join(mask_dir, mask_file)
-
-        if not os.path.exists(mask_path):
-            print(f"Warning: No mask found for {image_file}, skipping augmentation")
-            continue
-
-        image = cv2.imread(image_path)
-        if image is None:
-            print(f"Warning: Could not read image {image_path}")
-            continue
-
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        image = np.expand_dims(image, 0)  # Add batch dimension
-
-        mask = cv2.imread(mask_path, cv2.IMREAD_GRAYSCALE)
-        if mask is None:
-            print(f"Warning: Could not read mask {mask_path}")
-            continue
-
-        mask = np.expand_dims(mask, 0)  # Add batch dimension
-        mask = np.expand_dims(mask, 3)  # Add channel dimension
-
-        # Generate augmented images with seeds
-        for aug_idx in range(num_augmentations):
-            # Use a different seed for each augmentation but same for image and mask
-            aug_seed = int(time.time()) + aug_idx + hash(image_file) % 10000
-
-            # New filename for augmented image
-            aug_base_name = f"{base_name}_aug{aug_idx}"
-            aug_image_file = f"{aug_base_name}.png"
-            aug_mask_file = f"{aug_base_name}_mask.png"
-
-            # Output paths
-            aug_image_path = os.path.join(output_dir, "images", aug_image_file)
-            aug_mask_path = os.path.join(output_dir, "masks", aug_mask_file)
-
-            # Generate and save augmented image
-            image_generator = image_datagen.flow(
-                image,
-                batch_size=1,
-                seed=aug_seed,
-                save_to_dir=None
-            )
-            aug_image = next(image_generator)[0].astype(np.uint8)
-            cv2.imwrite(aug_image_path, cv2.cvtColor(aug_image, cv2.COLOR_RGB2BGR))
-
-            # Generate and save augmented mask
-            mask_generator = mask_datagen.flow(
-                mask,
-                batch_size=1,
-                seed=aug_seed,
-                save_to_dir=None
-            )
-            aug_mask = next(mask_generator)[0, :, :, 0].astype(np.uint8)
-            cv2.imwrite(aug_mask_path, aug_mask)
-
-            # Copy the original metadata for the augmented image
-            augmented_metadata[aug_base_name] = img_metadata.copy()
-
-            # Update statistics
-            stats["augmented"] += 1
-
-            # Update pattern statistics
-            if pattern in stats["by_pattern"]:
-                stats["by_pattern"][pattern]["augmented"] += 1
+                # Update pattern statistics
+                if pattern in stats["by_pattern"]:
+                    stats["by_pattern"][pattern]["augmented"] += 1
 
     # Save augmented metadata
     augmented_metadata_path = os.path.join(output_dir, "metadata.json")
