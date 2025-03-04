@@ -2,7 +2,7 @@
 Module for organizing data with a unified approach based on element defects.
 """
 import os
-import shutil
+import shutil  # Added missing import
 import numpy as np
 import json
 from tqdm import tqdm
@@ -27,6 +27,8 @@ def organize_unified(input_img_dir, input_mask_dir, output_dir):
 
     # Get list of images
     images = [f for f in os.listdir(input_img_dir) if f.endswith('.png')]
+    # Filter out visualization and overlay images
+    images = [f for f in images if not f.endswith('_visualization.png') and not f.endswith('_overlay.png')]
 
     # Metadata dictionary to store information about each sample
     metadata = {}
@@ -210,26 +212,3 @@ def verify_unified_organization(output_dir):
         print("Verification failed: Issues were detected in the data organization.")
 
     return all_passed
-
-if __name__ == "__main__":
-    from pathlib import Path
-    import sys
-
-    # Add the project root to the path so we can import the config
-    project_root = str(Path(__file__).parent.parent.parent.absolute())
-    sys.path.append(project_root)
-
-    import config
-
-    # Define a new unified data directory
-    unified_data_dir = os.path.join(config.DATA_DIR, "unified")
-
-    # Organize data with unified approach
-    stats, metadata = organize_unified(
-        config.PROCESSED_DATA_DIR,
-        config.MASK_DIR,
-        unified_data_dir
-    )
-
-    # Verify the organization
-    verify_unified_organization(unified_data_dir)
