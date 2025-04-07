@@ -1,0 +1,1204 @@
+2025-04-06 18:32:10,948 [INFO] Found 1 GPU(s). Memory growth enabled.
+2025-04-06 18:32:10,949 [INFO] 
+================================================================================
+2025-04-06 18:32:10,949 [INFO] STEP: Converting MAT Files to PNG
+2025-04-06 18:32:10,950 [INFO] ================================================================================
+2025-04-06 18:32:10,965 [INFO] Found 3000 MAT files
+2025-04-06 18:32:10,966 [INFO] Processing batch 1/150
+2025-04-06 18:32:19,211 [INFO] Processing batch 2/150
+2025-04-06 18:32:23,465 [INFO] Processing batch 3/150
+2025-04-06 18:32:27,736 [INFO] Processing batch 4/150
+2025-04-06 18:32:31,964 [INFO] Processing batch 5/150
+2025-04-06 18:32:36,213 [INFO] Processing batch 6/150
+2025-04-06 18:32:40,458 [INFO] Processing batch 7/150
+2025-04-06 18:32:44,695 [INFO] Processing batch 8/150
+2025-04-06 18:32:48,941 [INFO] Processing batch 9/150
+2025-04-06 18:32:53,201 [INFO] Processing batch 10/150
+2025-04-06 18:32:57,451 [INFO] Processing batch 11/150
+2025-04-06 18:33:01,712 [INFO] Processing batch 12/150
+2025-04-06 18:33:05,980 [INFO] Processing batch 13/150
+2025-04-06 18:33:10,240 [INFO] Processing batch 14/150
+2025-04-06 18:33:14,524 [INFO] Processing batch 15/150
+2025-04-06 18:33:18,779 [INFO] Processing batch 16/150
+2025-04-06 18:33:23,046 [INFO] Processing batch 17/150
+2025-04-06 18:33:27,301 [INFO] Processing batch 18/150
+2025-04-06 18:33:31,543 [INFO] Processing batch 19/150
+2025-04-06 18:33:35,803 [INFO] Processing batch 20/150
+2025-04-06 18:33:40,036 [INFO] Processing batch 21/150
+2025-04-06 18:33:44,284 [INFO] Processing batch 22/150
+2025-04-06 18:33:48,553 [INFO] Processing batch 23/150
+2025-04-06 18:33:52,811 [INFO] Processing batch 24/150
+2025-04-06 18:33:57,060 [INFO] Processing batch 25/150
+2025-04-06 18:34:01,318 [INFO] Processing batch 26/150
+2025-04-06 18:34:05,579 [INFO] Processing batch 27/150
+2025-04-06 18:34:09,799 [INFO] Processing batch 28/150
+2025-04-06 18:34:14,032 [INFO] Processing batch 29/150
+2025-04-06 18:34:18,270 [INFO] Processing batch 30/150
+2025-04-06 18:34:22,546 [INFO] Processing batch 31/150
+2025-04-06 18:34:26,822 [INFO] Processing batch 32/150
+2025-04-06 18:34:31,049 [INFO] Processing batch 33/150
+2025-04-06 18:34:35,298 [INFO] Processing batch 34/150
+2025-04-06 18:34:39,552 [INFO] Processing batch 35/150
+2025-04-06 18:34:43,795 [INFO] Processing batch 36/150
+2025-04-06 18:34:48,083 [INFO] Processing batch 37/150
+2025-04-06 18:34:52,354 [INFO] Processing batch 38/150
+2025-04-06 18:34:56,640 [INFO] Processing batch 39/150
+2025-04-06 18:35:00,920 [INFO] Processing batch 40/150
+2025-04-06 18:35:05,182 [INFO] Processing batch 41/150
+2025-04-06 18:35:09,457 [INFO] Processing batch 42/150
+2025-04-06 18:35:13,737 [INFO] Processing batch 43/150
+2025-04-06 18:35:18,178 [INFO] Processing batch 44/150
+2025-04-06 18:35:22,426 [INFO] Processing batch 45/150
+2025-04-06 18:35:26,724 [INFO] Processing batch 46/150
+2025-04-06 18:35:30,990 [INFO] Processing batch 47/150
+2025-04-06 18:35:35,271 [INFO] Processing batch 48/150
+2025-04-06 18:35:39,537 [INFO] Processing batch 49/150
+2025-04-06 18:35:43,771 [INFO] Processing batch 50/150
+2025-04-06 18:35:48,026 [INFO] Processing batch 51/150
+2025-04-06 18:35:52,287 [INFO] Processing batch 52/150
+2025-04-06 18:35:56,551 [INFO] Processing batch 53/150
+2025-04-06 18:36:00,816 [INFO] Processing batch 54/150
+2025-04-06 18:36:05,094 [INFO] Processing batch 55/150
+2025-04-06 18:36:09,369 [INFO] Processing batch 56/150
+2025-04-06 18:36:13,641 [INFO] Processing batch 57/150
+2025-04-06 18:36:17,853 [INFO] Processing batch 58/150
+2025-04-06 18:36:22,078 [INFO] Processing batch 59/150
+2025-04-06 18:36:26,382 [INFO] Processing batch 60/150
+2025-04-06 18:36:30,616 [INFO] Processing batch 61/150
+2025-04-06 18:36:34,847 [INFO] Processing batch 62/150
+2025-04-06 18:36:39,098 [INFO] Processing batch 63/150
+2025-04-06 18:36:43,323 [INFO] Processing batch 64/150
+2025-04-06 18:36:47,558 [INFO] Processing batch 65/150
+2025-04-06 18:36:51,829 [INFO] Processing batch 66/150
+2025-04-06 18:36:56,060 [INFO] Processing batch 67/150
+2025-04-06 18:37:00,280 [INFO] Processing batch 68/150
+2025-04-06 18:37:04,546 [INFO] Processing batch 69/150
+2025-04-06 18:37:08,677 [INFO] Processing batch 70/150
+2025-04-06 18:37:12,825 [INFO] Processing batch 71/150
+2025-04-06 18:37:16,947 [INFO] Processing batch 72/150
+2025-04-06 18:37:21,086 [INFO] Processing batch 73/150
+2025-04-06 18:37:25,237 [INFO] Processing batch 74/150
+2025-04-06 18:37:29,383 [INFO] Processing batch 75/150
+2025-04-06 18:37:33,515 [INFO] Processing batch 76/150
+2025-04-06 18:37:37,667 [INFO] Processing batch 77/150
+2025-04-06 18:37:41,806 [INFO] Processing batch 78/150
+2025-04-06 18:37:45,936 [INFO] Processing batch 79/150
+2025-04-06 18:37:50,078 [INFO] Processing batch 80/150
+2025-04-06 18:37:54,220 [INFO] Processing batch 81/150
+2025-04-06 18:37:58,371 [INFO] Processing batch 82/150
+2025-04-06 18:38:02,504 [INFO] Processing batch 83/150
+2025-04-06 18:38:06,630 [INFO] Processing batch 84/150
+2025-04-06 18:38:10,779 [INFO] Processing batch 85/150
+2025-04-06 18:38:14,925 [INFO] Processing batch 86/150
+2025-04-06 18:38:19,062 [INFO] Processing batch 87/150
+2025-04-06 18:38:23,209 [INFO] Processing batch 88/150
+2025-04-06 18:38:27,365 [INFO] Processing batch 89/150
+2025-04-06 18:38:31,489 [INFO] Processing batch 90/150
+2025-04-06 18:38:35,633 [INFO] Processing batch 91/150
+2025-04-06 18:38:39,763 [INFO] Processing batch 92/150
+2025-04-06 18:38:43,899 [INFO] Processing batch 93/150
+2025-04-06 18:38:48,047 [INFO] Processing batch 94/150
+2025-04-06 18:38:52,193 [INFO] Processing batch 95/150
+2025-04-06 18:38:56,332 [INFO] Processing batch 96/150
+2025-04-06 18:39:00,491 [INFO] Processing batch 97/150
+2025-04-06 18:39:04,631 [INFO] Processing batch 98/150
+2025-04-06 18:39:08,778 [INFO] Processing batch 99/150
+2025-04-06 18:39:12,924 [INFO] Processing batch 100/150
+2025-04-06 18:39:17,075 [INFO] Processing batch 101/150
+2025-04-06 18:39:21,237 [INFO] Processing batch 102/150
+2025-04-06 18:39:25,405 [INFO] Processing batch 103/150
+2025-04-06 18:39:29,580 [INFO] Processing batch 104/150
+2025-04-06 18:39:33,732 [INFO] Processing batch 105/150
+2025-04-06 18:39:37,903 [INFO] Processing batch 106/150
+2025-04-06 18:39:42,106 [INFO] Processing batch 107/150
+2025-04-06 18:39:46,275 [INFO] Processing batch 108/150
+2025-04-06 18:39:50,442 [INFO] Processing batch 109/150
+2025-04-06 18:39:54,618 [INFO] Processing batch 110/150
+2025-04-06 18:39:58,784 [INFO] Processing batch 111/150
+2025-04-06 18:40:02,983 [INFO] Processing batch 112/150
+2025-04-06 18:40:07,156 [INFO] Processing batch 113/150
+2025-04-06 18:40:11,322 [INFO] Processing batch 114/150
+2025-04-06 18:40:15,500 [INFO] Processing batch 115/150
+2025-04-06 18:40:19,671 [INFO] Processing batch 116/150
+2025-04-06 18:40:23,867 [INFO] Processing batch 117/150
+2025-04-06 18:40:28,061 [INFO] Processing batch 118/150
+2025-04-06 18:40:32,252 [INFO] Processing batch 119/150
+2025-04-06 18:40:36,451 [INFO] Processing batch 120/150
+2025-04-06 18:40:40,645 [INFO] Processing batch 121/150
+2025-04-06 18:40:44,814 [INFO] Processing batch 122/150
+2025-04-06 18:40:49,005 [INFO] Processing batch 123/150
+2025-04-06 18:40:53,190 [INFO] Processing batch 124/150
+2025-04-06 18:40:57,383 [INFO] Processing batch 125/150
+2025-04-06 18:41:01,579 [INFO] Processing batch 126/150
+2025-04-06 18:41:05,767 [INFO] Processing batch 127/150
+2025-04-06 18:41:09,947 [INFO] Processing batch 128/150
+2025-04-06 18:41:14,117 [INFO] Processing batch 129/150
+2025-04-06 18:41:18,280 [INFO] Processing batch 130/150
+2025-04-06 18:41:22,497 [INFO] Processing batch 131/150
+2025-04-06 18:41:26,697 [INFO] Processing batch 132/150
+2025-04-06 18:41:30,883 [INFO] Processing batch 133/150
+2025-04-06 18:41:35,048 [INFO] Processing batch 134/150
+2025-04-06 18:41:39,246 [INFO] Processing batch 135/150
+2025-04-06 18:41:43,428 [INFO] Processing batch 136/150
+2025-04-06 18:41:47,613 [INFO] Processing batch 137/150
+2025-04-06 18:41:51,820 [INFO] Processing batch 138/150
+2025-04-06 18:41:55,997 [INFO] Processing batch 139/150
+2025-04-06 18:42:00,197 [INFO] Processing batch 140/150
+2025-04-06 18:42:04,400 [INFO] Processing batch 141/150
+2025-04-06 18:42:08,617 [INFO] Processing batch 142/150
+2025-04-06 18:42:12,819 [INFO] Processing batch 143/150
+2025-04-06 18:42:17,029 [INFO] Processing batch 144/150
+2025-04-06 18:42:21,226 [INFO] Processing batch 145/150
+2025-04-06 18:42:25,423 [INFO] Processing batch 146/150
+2025-04-06 18:42:29,649 [INFO] Processing batch 147/150
+2025-04-06 18:42:33,841 [INFO] Processing batch 148/150
+2025-04-06 18:42:38,089 [INFO] Processing batch 149/150
+2025-04-06 18:42:42,313 [INFO] Processing batch 150/150
+2025-04-06 18:42:46,516 [INFO] Successfully converted 3000/3000 MAT files
+2025-04-06 18:42:46,516 [INFO] 
+================================================================================
+2025-04-06 18:42:46,516 [INFO] STEP: Creating Segmentation Masks
+2025-04-06 18:42:46,517 [INFO] ================================================================================
+2025-04-06 18:42:46,553 [INFO] Found 3000 files for mask creation
+2025-04-06 18:42:46,553 [INFO] Processing batch 1/150
+2025-04-06 18:42:50,464 [INFO] Processing batch 2/150
+2025-04-06 18:42:54,390 [INFO] Processing batch 3/150
+2025-04-06 18:42:58,291 [INFO] Processing batch 4/150
+2025-04-06 18:43:02,210 [INFO] Processing batch 5/150
+2025-04-06 18:43:06,106 [INFO] Processing batch 6/150
+2025-04-06 18:43:10,010 [INFO] Processing batch 7/150
+2025-04-06 18:43:13,919 [INFO] Processing batch 8/150
+2025-04-06 18:43:17,803 [INFO] Processing batch 9/150
+2025-04-06 18:43:21,699 [INFO] Processing batch 10/150
+2025-04-06 18:43:25,615 [INFO] Processing batch 11/150
+2025-04-06 18:43:29,514 [INFO] Processing batch 12/150
+2025-04-06 18:43:33,420 [INFO] Processing batch 13/150
+2025-04-06 18:43:37,300 [INFO] Processing batch 14/150
+2025-04-06 18:43:41,203 [INFO] Processing batch 15/150
+2025-04-06 18:43:45,105 [INFO] Processing batch 16/150
+2025-04-06 18:43:48,997 [INFO] Processing batch 17/150
+2025-04-06 18:43:52,897 [INFO] Processing batch 18/150
+2025-04-06 18:43:56,793 [INFO] Processing batch 19/150
+2025-04-06 18:44:00,695 [INFO] Processing batch 20/150
+2025-04-06 18:44:04,612 [INFO] Processing batch 21/150
+2025-04-06 18:44:08,524 [INFO] Processing batch 22/150
+2025-04-06 18:44:12,445 [INFO] Processing batch 23/150
+2025-04-06 18:44:16,340 [INFO] Processing batch 24/150
+2025-04-06 18:44:20,243 [INFO] Processing batch 25/150
+2025-04-06 18:44:24,160 [INFO] Processing batch 26/150
+2025-04-06 18:44:28,065 [INFO] Processing batch 27/150
+2025-04-06 18:44:31,978 [INFO] Processing batch 28/150
+2025-04-06 18:44:35,901 [INFO] Processing batch 29/150
+2025-04-06 18:44:39,812 [INFO] Processing batch 30/150
+2025-04-06 18:44:43,744 [INFO] Processing batch 31/150
+2025-04-06 18:44:47,677 [INFO] Processing batch 32/150
+2025-04-06 18:44:51,617 [INFO] Processing batch 33/150
+2025-04-06 18:44:55,555 [INFO] Processing batch 34/150
+2025-04-06 18:44:59,477 [INFO] Processing batch 35/150
+2025-04-06 18:45:03,387 [INFO] Processing batch 36/150
+2025-04-06 18:45:07,302 [INFO] Processing batch 37/150
+2025-04-06 18:45:11,237 [INFO] Processing batch 38/150
+2025-04-06 18:45:15,137 [INFO] Processing batch 39/150
+2025-04-06 18:45:19,059 [INFO] Processing batch 40/150
+2025-04-06 18:45:22,979 [INFO] Processing batch 41/150
+2025-04-06 18:45:26,887 [INFO] Processing batch 42/150
+2025-04-06 18:45:30,803 [INFO] Processing batch 43/150
+2025-04-06 18:45:34,713 [INFO] Processing batch 44/150
+2025-04-06 18:45:38,651 [INFO] Processing batch 45/150
+2025-04-06 18:45:42,576 [INFO] Processing batch 46/150
+2025-04-06 18:45:46,499 [INFO] Processing batch 47/150
+2025-04-06 18:45:50,410 [INFO] Processing batch 48/150
+2025-04-06 18:45:54,330 [INFO] Processing batch 49/150
+2025-04-06 18:45:58,266 [INFO] Processing batch 50/150
+2025-04-06 18:46:02,211 [INFO] Processing batch 51/150
+2025-04-06 18:46:06,115 [INFO] Processing batch 52/150
+2025-04-06 18:46:10,044 [INFO] Processing batch 53/150
+2025-04-06 18:46:13,969 [INFO] Processing batch 54/150
+2025-04-06 18:46:17,915 [INFO] Processing batch 55/150
+2025-04-06 18:46:21,845 [INFO] Processing batch 56/150
+2025-04-06 18:46:25,776 [INFO] Processing batch 57/150
+2025-04-06 18:46:29,710 [INFO] Processing batch 58/150
+2025-04-06 18:46:33,635 [INFO] Processing batch 59/150
+2025-04-06 18:46:37,548 [INFO] Processing batch 60/150
+2025-04-06 18:46:41,484 [INFO] Processing batch 61/150
+2025-04-06 18:46:45,421 [INFO] Processing batch 62/150
+2025-04-06 18:46:49,350 [INFO] Processing batch 63/150
+2025-04-06 18:46:53,277 [INFO] Processing batch 64/150
+2025-04-06 18:46:57,215 [INFO] Processing batch 65/150
+2025-04-06 18:47:01,145 [INFO] Processing batch 66/150
+2025-04-06 18:47:05,069 [INFO] Processing batch 67/150
+2025-04-06 18:47:09,007 [INFO] Processing batch 68/150
+2025-04-06 18:47:12,944 [INFO] Processing batch 69/150
+2025-04-06 18:47:16,860 [INFO] Processing batch 70/150
+2025-04-06 18:47:20,789 [INFO] Processing batch 71/150
+2025-04-06 18:47:24,758 [INFO] Processing batch 72/150
+2025-04-06 18:47:28,693 [INFO] Processing batch 73/150
+2025-04-06 18:47:32,619 [INFO] Processing batch 74/150
+2025-04-06 18:47:36,555 [INFO] Processing batch 75/150
+2025-04-06 18:47:40,505 [INFO] Processing batch 76/150
+2025-04-06 18:47:44,442 [INFO] Processing batch 77/150
+2025-04-06 18:47:48,356 [INFO] Processing batch 78/150
+2025-04-06 18:47:52,294 [INFO] Processing batch 79/150
+2025-04-06 18:47:56,220 [INFO] Processing batch 80/150
+2025-04-06 18:48:00,168 [INFO] Processing batch 81/150
+2025-04-06 18:48:04,096 [INFO] Processing batch 82/150
+2025-04-06 18:48:08,024 [INFO] Processing batch 83/150
+2025-04-06 18:48:11,973 [INFO] Processing batch 84/150
+2025-04-06 18:48:15,887 [INFO] Processing batch 85/150
+2025-04-06 18:48:19,810 [INFO] Processing batch 86/150
+2025-04-06 18:48:23,717 [INFO] Processing batch 87/150
+2025-04-06 18:48:27,637 [INFO] Processing batch 88/150
+2025-04-06 18:48:31,579 [INFO] Processing batch 89/150
+2025-04-06 18:48:35,491 [INFO] Processing batch 90/150
+2025-04-06 18:48:39,433 [INFO] Processing batch 91/150
+2025-04-06 18:48:43,362 [INFO] Processing batch 92/150
+2025-04-06 18:48:47,297 [INFO] Processing batch 93/150
+2025-04-06 18:48:51,265 [INFO] Processing batch 94/150
+2025-04-06 18:48:55,210 [INFO] Processing batch 95/150
+2025-04-06 18:48:59,135 [INFO] Processing batch 96/150
+2025-04-06 18:49:03,081 [INFO] Processing batch 97/150
+2025-04-06 18:49:06,999 [INFO] Processing batch 98/150
+2025-04-06 18:49:10,960 [INFO] Processing batch 99/150
+2025-04-06 18:49:14,883 [INFO] Processing batch 100/150
+2025-04-06 18:49:18,795 [INFO] Processing batch 101/150
+2025-04-06 18:49:22,755 [INFO] Processing batch 102/150
+2025-04-06 18:49:26,672 [INFO] Processing batch 103/150
+2025-04-06 18:49:30,602 [INFO] Processing batch 104/150
+2025-04-06 18:49:34,539 [INFO] Processing batch 105/150
+2025-04-06 18:49:38,472 [INFO] Processing batch 106/150
+2025-04-06 18:49:42,397 [INFO] Processing batch 107/150
+2025-04-06 18:49:46,334 [INFO] Processing batch 108/150
+2025-04-06 18:49:50,287 [INFO] Processing batch 109/150
+2025-04-06 18:49:54,214 [INFO] Processing batch 110/150
+2025-04-06 18:49:58,147 [INFO] Processing batch 111/150
+2025-04-06 18:50:02,096 [INFO] Processing batch 112/150
+2025-04-06 18:50:06,040 [INFO] Processing batch 113/150
+2025-04-06 18:50:09,966 [INFO] Processing batch 114/150
+2025-04-06 18:50:13,877 [INFO] Processing batch 115/150
+2025-04-06 18:50:17,787 [INFO] Processing batch 116/150
+2025-04-06 18:50:21,715 [INFO] Processing batch 117/150
+2025-04-06 18:50:25,671 [INFO] Processing batch 118/150
+2025-04-06 18:50:29,605 [INFO] Processing batch 119/150
+2025-04-06 18:50:33,616 [INFO] Processing batch 120/150
+2025-04-06 18:50:37,543 [INFO] Processing batch 121/150
+2025-04-06 18:50:41,496 [INFO] Processing batch 122/150
+2025-04-06 18:50:45,422 [INFO] Processing batch 123/150
+2025-04-06 18:50:49,336 [INFO] Processing batch 124/150
+2025-04-06 18:50:53,278 [INFO] Processing batch 125/150
+2025-04-06 18:50:57,214 [INFO] Processing batch 126/150
+2025-04-06 18:51:01,159 [INFO] Processing batch 127/150
+2025-04-06 18:51:05,097 [INFO] Processing batch 128/150
+2025-04-06 18:51:09,010 [INFO] Processing batch 129/150
+2025-04-06 18:51:12,950 [INFO] Processing batch 130/150
+2025-04-06 18:51:16,889 [INFO] Processing batch 131/150
+2025-04-06 18:51:20,829 [INFO] Processing batch 132/150
+2025-04-06 18:51:24,756 [INFO] Processing batch 133/150
+2025-04-06 18:51:28,693 [INFO] Processing batch 134/150
+2025-04-06 18:51:32,627 [INFO] Processing batch 135/150
+2025-04-06 18:51:36,536 [INFO] Processing batch 136/150
+2025-04-06 18:51:40,465 [INFO] Processing batch 137/150
+2025-04-06 18:51:44,407 [INFO] Processing batch 138/150
+2025-04-06 18:51:48,342 [INFO] Processing batch 139/150
+2025-04-06 18:51:52,261 [INFO] Processing batch 140/150
+2025-04-06 18:51:56,206 [INFO] Processing batch 141/150
+2025-04-06 18:52:00,126 [INFO] Processing batch 142/150
+2025-04-06 18:52:04,036 [INFO] Processing batch 143/150
+2025-04-06 18:52:07,998 [INFO] Processing batch 144/150
+2025-04-06 18:52:11,924 [INFO] Processing batch 145/150
+2025-04-06 18:52:15,849 [INFO] Processing batch 146/150
+2025-04-06 18:52:19,780 [INFO] Processing batch 147/150
+2025-04-06 18:52:23,687 [INFO] Processing batch 148/150
+2025-04-06 18:52:27,628 [INFO] Processing batch 149/150
+2025-04-06 18:52:31,570 [INFO] Processing batch 150/150
+2025-04-06 18:52:35,484 [INFO] Successfully created 3000/3000 masks
+2025-04-06 18:52:35,484 [INFO] 
+================================================================================
+2025-04-06 18:52:35,485 [INFO] STEP: Organizing Data with Unified Approach
+2025-04-06 18:52:35,485 [INFO] ================================================================================
+2025-04-06 18:52:35,519 [INFO] Found 3000 images for organization
+2025-04-06 18:52:35,519 [INFO] Processing batch 1/150
+2025-04-06 18:52:35,646 [INFO] Processing batch 2/150
+2025-04-06 18:52:35,777 [INFO] Processing batch 3/150
+2025-04-06 18:52:35,906 [INFO] Processing batch 4/150
+2025-04-06 18:52:36,018 [INFO] Processing batch 5/150
+2025-04-06 18:52:36,147 [INFO] Processing batch 6/150
+2025-04-06 18:52:36,266 [INFO] Processing batch 7/150
+2025-04-06 18:52:36,389 [INFO] Processing batch 8/150
+2025-04-06 18:52:36,510 [INFO] Processing batch 9/150
+2025-04-06 18:52:36,643 [INFO] Processing batch 10/150
+2025-04-06 18:52:36,765 [INFO] Processing batch 11/150
+2025-04-06 18:52:36,899 [INFO] Processing batch 12/150
+2025-04-06 18:52:37,021 [INFO] Processing batch 13/150
+2025-04-06 18:52:37,157 [INFO] Processing batch 14/150
+2025-04-06 18:52:37,277 [INFO] Processing batch 15/150
+2025-04-06 18:52:37,415 [INFO] Processing batch 16/150
+2025-04-06 18:52:37,536 [INFO] Processing batch 17/150
+2025-04-06 18:52:37,669 [INFO] Processing batch 18/150
+2025-04-06 18:52:37,791 [INFO] Processing batch 19/150
+2025-04-06 18:52:37,928 [INFO] Processing batch 20/150
+2025-04-06 18:52:38,047 [INFO] Processing batch 21/150
+2025-04-06 18:52:38,186 [INFO] Processing batch 22/150
+2025-04-06 18:52:38,308 [INFO] Processing batch 23/150
+2025-04-06 18:52:38,451 [INFO] Processing batch 24/150
+2025-04-06 18:52:38,570 [INFO] Processing batch 25/150
+2025-04-06 18:52:38,705 [INFO] Processing batch 26/150
+2025-04-06 18:52:38,835 [INFO] Processing batch 27/150
+2025-04-06 18:52:38,976 [INFO] Processing batch 28/150
+2025-04-06 18:52:39,102 [INFO] Processing batch 29/150
+2025-04-06 18:52:39,249 [INFO] Processing batch 30/150
+2025-04-06 18:52:39,374 [INFO] Processing batch 31/150
+2025-04-06 18:52:39,515 [INFO] Processing batch 32/150
+2025-04-06 18:52:39,642 [INFO] Processing batch 33/150
+2025-04-06 18:52:39,788 [INFO] Processing batch 34/150
+2025-04-06 18:52:39,911 [INFO] Processing batch 35/150
+2025-04-06 18:52:40,058 [INFO] Processing batch 36/150
+2025-04-06 18:52:40,182 [INFO] Processing batch 37/150
+2025-04-06 18:52:40,322 [INFO] Processing batch 38/150
+2025-04-06 18:52:40,448 [INFO] Processing batch 39/150
+2025-04-06 18:52:40,597 [INFO] Processing batch 40/150
+2025-04-06 18:52:40,726 [INFO] Processing batch 41/150
+2025-04-06 18:52:40,871 [INFO] Processing batch 42/150
+2025-04-06 18:52:41,006 [INFO] Processing batch 43/150
+2025-04-06 18:52:41,159 [INFO] Processing batch 44/150
+2025-04-06 18:52:41,290 [INFO] Processing batch 45/150
+2025-04-06 18:52:41,436 [INFO] Processing batch 46/150
+2025-04-06 18:52:41,566 [INFO] Processing batch 47/150
+2025-04-06 18:52:41,713 [INFO] Processing batch 48/150
+2025-04-06 18:52:41,849 [INFO] Processing batch 49/150
+2025-04-06 18:52:41,997 [INFO] Processing batch 50/150
+2025-04-06 18:52:42,133 [INFO] Processing batch 51/150
+2025-04-06 18:52:42,288 [INFO] Processing batch 52/150
+2025-04-06 18:52:42,417 [INFO] Processing batch 53/150
+2025-04-06 18:52:42,565 [INFO] Processing batch 54/150
+2025-04-06 18:52:42,698 [INFO] Processing batch 55/150
+2025-04-06 18:52:42,853 [INFO] Processing batch 56/150
+2025-04-06 18:52:42,993 [INFO] Processing batch 57/150
+2025-04-06 18:52:43,141 [INFO] Processing batch 58/150
+2025-04-06 18:52:43,283 [INFO] Processing batch 59/150
+2025-04-06 18:52:43,429 [INFO] Processing batch 60/150
+2025-04-06 18:52:43,571 [INFO] Processing batch 61/150
+2025-04-06 18:52:43,718 [INFO] Processing batch 62/150
+2025-04-06 18:52:43,870 [INFO] Processing batch 63/150
+2025-04-06 18:52:44,016 [INFO] Processing batch 64/150
+2025-04-06 18:52:44,155 [INFO] Processing batch 65/150
+2025-04-06 18:52:44,306 [INFO] Processing batch 66/150
+2025-04-06 18:52:44,452 [INFO] Processing batch 67/150
+2025-04-06 18:52:44,603 [INFO] Processing batch 68/150
+2025-04-06 18:52:44,752 [INFO] Processing batch 69/150
+2025-04-06 18:52:44,894 [INFO] Processing batch 70/150
+2025-04-06 18:52:45,063 [INFO] Processing batch 71/150
+2025-04-06 18:52:45,206 [INFO] Processing batch 72/150
+2025-04-06 18:52:45,362 [INFO] Processing batch 73/150
+2025-04-06 18:52:45,507 [INFO] Processing batch 74/150
+2025-04-06 18:52:45,664 [INFO] Processing batch 75/150
+2025-04-06 18:52:45,820 [INFO] Processing batch 76/150
+2025-04-06 18:52:45,963 [INFO] Processing batch 77/150
+2025-04-06 18:52:46,118 [INFO] Processing batch 78/150
+2025-04-06 18:52:46,261 [INFO] Processing batch 79/150
+2025-04-06 18:52:46,423 [INFO] Processing batch 80/150
+2025-04-06 18:52:46,571 [INFO] Processing batch 81/150
+2025-04-06 18:52:46,730 [INFO] Processing batch 82/150
+2025-04-06 18:52:46,892 [INFO] Processing batch 83/150
+2025-04-06 18:52:47,039 [INFO] Processing batch 84/150
+2025-04-06 18:52:47,195 [INFO] Processing batch 85/150
+2025-04-06 18:52:47,345 [INFO] Processing batch 86/150
+2025-04-06 18:52:47,498 [INFO] Processing batch 87/150
+2025-04-06 18:52:47,656 [INFO] Processing batch 88/150
+2025-04-06 18:52:47,810 [INFO] Processing batch 89/150
+2025-04-06 18:52:47,970 [INFO] Processing batch 90/150
+2025-04-06 18:52:48,130 [INFO] Processing batch 91/150
+2025-04-06 18:52:48,285 [INFO] Processing batch 92/150
+2025-04-06 18:52:48,451 [INFO] Processing batch 93/150
+2025-04-06 18:52:48,613 [INFO] Processing batch 94/150
+2025-04-06 18:52:48,764 [INFO] Processing batch 95/150
+2025-04-06 18:52:48,925 [INFO] Processing batch 96/150
+2025-04-06 18:52:49,092 [INFO] Processing batch 97/150
+2025-04-06 18:52:49,245 [INFO] Processing batch 98/150
+2025-04-06 18:52:49,408 [INFO] Processing batch 99/150
+2025-04-06 18:52:49,568 [INFO] Processing batch 100/150
+2025-04-06 18:52:49,716 [INFO] Processing batch 101/150
+2025-04-06 18:52:49,885 [INFO] Processing batch 102/150
+2025-04-06 18:52:50,049 [INFO] Processing batch 103/150
+2025-04-06 18:52:50,198 [INFO] Processing batch 104/150
+2025-04-06 18:52:50,367 [INFO] Processing batch 105/150
+2025-04-06 18:52:50,544 [INFO] Processing batch 106/150
+2025-04-06 18:52:50,696 [INFO] Processing batch 107/150
+2025-04-06 18:52:50,861 [INFO] Processing batch 108/150
+2025-04-06 18:52:51,026 [INFO] Processing batch 109/150
+2025-04-06 18:52:51,177 [INFO] Processing batch 110/150
+2025-04-06 18:52:51,343 [INFO] Processing batch 111/150
+2025-04-06 18:52:51,513 [INFO] Processing batch 112/150
+2025-04-06 18:52:51,667 [INFO] Processing batch 113/150
+2025-04-06 18:52:51,844 [INFO] Processing batch 114/150
+2025-04-06 18:52:52,011 [INFO] Processing batch 115/150
+2025-04-06 18:52:52,170 [INFO] Processing batch 116/150
+2025-04-06 18:52:52,342 [INFO] Processing batch 117/150
+2025-04-06 18:52:52,513 [INFO] Processing batch 118/150
+2025-04-06 18:52:52,673 [INFO] Processing batch 119/150
+2025-04-06 18:52:52,839 [INFO] Processing batch 120/150
+2025-04-06 18:52:53,008 [INFO] Processing batch 121/150
+2025-04-06 18:52:53,172 [INFO] Processing batch 122/150
+2025-04-06 18:52:53,341 [INFO] Processing batch 123/150
+2025-04-06 18:52:53,515 [INFO] Processing batch 124/150
+2025-04-06 18:52:53,681 [INFO] Processing batch 125/150
+2025-04-06 18:52:53,854 [INFO] Processing batch 126/150
+2025-04-06 18:52:54,027 [INFO] Processing batch 127/150
+2025-04-06 18:52:54,190 [INFO] Processing batch 128/150
+2025-04-06 18:52:54,366 [INFO] Processing batch 129/150
+2025-04-06 18:52:54,544 [INFO] Processing batch 130/150
+2025-04-06 18:52:54,704 [INFO] Processing batch 131/150
+2025-04-06 18:52:54,878 [INFO] Processing batch 132/150
+2025-04-06 18:52:55,052 [INFO] Processing batch 133/150
+2025-04-06 18:52:55,216 [INFO] Processing batch 134/150
+2025-04-06 18:52:55,392 [INFO] Processing batch 135/150
+2025-04-06 18:52:55,571 [INFO] Processing batch 136/150
+2025-04-06 18:52:55,749 [INFO] Processing batch 137/150
+2025-04-06 18:52:55,934 [INFO] Processing batch 138/150
+2025-04-06 18:52:56,107 [INFO] Processing batch 139/150
+2025-04-06 18:52:56,276 [INFO] Processing batch 140/150
+2025-04-06 18:52:56,455 [INFO] Processing batch 141/150
+2025-04-06 18:52:56,630 [INFO] Processing batch 142/150
+2025-04-06 18:52:56,803 [INFO] Processing batch 143/150
+2025-04-06 18:52:56,984 [INFO] Processing batch 144/150
+2025-04-06 18:52:57,161 [INFO] Processing batch 145/150
+2025-04-06 18:52:57,344 [INFO] Processing batch 146/150
+2025-04-06 18:52:57,521 [INFO] Processing batch 147/150
+2025-04-06 18:52:57,702 [INFO] Processing batch 148/150
+2025-04-06 18:52:57,882 [INFO] Processing batch 149/150
+2025-04-06 18:52:58,057 [INFO] Processing batch 150/150
+2025-04-06 18:52:58,240 [INFO] Organization statistics:
+2025-04-06 18:52:58,240 [INFO]   Total organized: 3000
+2025-04-06 18:52:58,240 [INFO]   With defects: 2400
+2025-04-06 18:52:58,240 [INFO]   Without defects: 600
+2025-04-06 18:52:58,240 [INFO]   Patterns: {'all_enabled': 600, '5_contiguous': 600, '5_random': 600, '1_random': 600, '2_contiguous': 600}
+2025-04-06 18:52:58,240 [INFO] 
+================================================================================
+2025-04-06 18:52:58,240 [INFO] STEP: Augmenting Data
+2025-04-06 18:52:58,241 [INFO] ================================================================================
+2025-04-06 18:52:58,261 [INFO] Found 3000 original images for augmentation
+2025-04-06 18:52:58,261 [INFO] Copying original files...
+2025-04-06 18:53:04,591 [INFO] Augmenting batch 1/150
+2025-04-06 18:53:15,649 [INFO] Augmenting batch 2/150
+2025-04-06 18:53:27,479 [INFO] Augmenting batch 3/150
+2025-04-06 18:53:38,179 [INFO] Augmenting batch 4/150
+2025-04-06 18:53:48,870 [INFO] Augmenting batch 5/150
+2025-04-06 18:53:59,660 [INFO] Augmenting batch 6/150
+2025-04-06 18:54:10,391 [INFO] Augmenting batch 7/150
+2025-04-06 18:54:21,129 [INFO] Augmenting batch 8/150
+2025-04-06 18:54:31,910 [INFO] Augmenting batch 9/150
+2025-04-06 18:54:42,723 [INFO] Augmenting batch 10/150
+2025-04-06 18:54:53,439 [INFO] Augmenting batch 11/150
+2025-04-06 18:55:04,285 [INFO] Augmenting batch 12/150
+2025-04-06 18:55:15,026 [INFO] Augmenting batch 13/150
+2025-04-06 18:55:25,774 [INFO] Augmenting batch 14/150
+2025-04-06 18:55:36,512 [INFO] Augmenting batch 15/150
+2025-04-06 18:55:47,286 [INFO] Augmenting batch 16/150
+2025-04-06 18:55:58,134 [INFO] Augmenting batch 17/150
+2025-04-06 18:56:08,999 [INFO] Augmenting batch 18/150
+2025-04-06 18:56:19,823 [INFO] Augmenting batch 19/150
+2025-04-06 18:56:30,652 [INFO] Augmenting batch 20/150
+2025-04-06 18:56:41,390 [INFO] Augmenting batch 21/150
+2025-04-06 18:56:52,174 [INFO] Augmenting batch 22/150
+2025-04-06 18:57:02,902 [INFO] Augmenting batch 23/150
+2025-04-06 18:57:14,905 [INFO] Augmenting batch 24/150
+2025-04-06 18:57:25,677 [INFO] Augmenting batch 25/150
+2025-04-06 18:57:36,485 [INFO] Augmenting batch 26/150
+2025-04-06 18:57:47,287 [INFO] Augmenting batch 27/150
+2025-04-06 18:57:58,135 [INFO] Augmenting batch 28/150
+2025-04-06 18:58:08,935 [INFO] Augmenting batch 29/150
+2025-04-06 18:58:19,700 [INFO] Augmenting batch 30/150
+2025-04-06 18:58:30,464 [INFO] Augmenting batch 31/150
+2025-04-06 18:58:41,300 [INFO] Augmenting batch 32/150
+2025-04-06 18:58:52,074 [INFO] Augmenting batch 33/150
+2025-04-06 18:59:02,958 [INFO] Augmenting batch 34/150
+2025-04-06 18:59:14,869 [INFO] Augmenting batch 35/150
+2025-04-06 18:59:25,708 [INFO] Augmenting batch 36/150
+2025-04-06 18:59:36,557 [INFO] Augmenting batch 37/150
+2025-04-06 18:59:47,379 [INFO] Augmenting batch 38/150
+2025-04-06 18:59:58,214 [INFO] Augmenting batch 39/150
+2025-04-06 19:00:09,912 [INFO] Augmenting batch 40/150
+2025-04-06 19:00:21,628 [INFO] Augmenting batch 41/150
+2025-04-06 19:00:32,672 [INFO] Augmenting batch 42/150
+2025-04-06 19:00:43,698 [INFO] Augmenting batch 43/150
+2025-04-06 19:00:55,161 [INFO] Augmenting batch 44/150
+2025-04-06 19:01:06,718 [INFO] Augmenting batch 45/150
+2025-04-06 19:01:21,063 [INFO] Augmenting batch 46/150
+2025-04-06 19:01:33,881 [INFO] Augmenting batch 47/150
+2025-04-06 19:01:46,688 [INFO] Augmenting batch 48/150
+2025-04-06 19:01:59,634 [INFO] Augmenting batch 49/150
+2025-04-06 19:02:13,623 [INFO] Augmenting batch 50/150
+2025-04-06 19:02:25,476 [INFO] Augmenting batch 51/150
+2025-04-06 19:02:37,159 [INFO] Augmenting batch 52/150
+2025-04-06 19:02:48,638 [INFO] Augmenting batch 53/150
+2025-04-06 19:02:59,384 [INFO] Augmenting batch 54/150
+2025-04-06 19:03:10,734 [INFO] Augmenting batch 55/150
+2025-04-06 19:03:21,835 [INFO] Augmenting batch 56/150
+2025-04-06 19:03:32,929 [INFO] Augmenting batch 57/150
+2025-04-06 19:03:43,812 [INFO] Augmenting batch 58/150
+2025-04-06 19:03:55,382 [INFO] Augmenting batch 59/150
+2025-04-06 19:04:07,174 [INFO] Augmenting batch 60/150
+2025-04-06 19:04:18,431 [INFO] Augmenting batch 61/150
+2025-04-06 19:04:29,306 [INFO] Augmenting batch 62/150
+2025-04-06 19:04:41,031 [INFO] Augmenting batch 63/150
+2025-04-06 19:04:52,679 [INFO] Augmenting batch 64/150
+2025-04-06 19:05:05,273 [INFO] Augmenting batch 65/150
+2025-04-06 19:05:16,587 [INFO] Augmenting batch 66/150
+2025-04-06 19:05:28,053 [INFO] Augmenting batch 67/150
+2025-04-06 19:05:39,967 [INFO] Augmenting batch 68/150
+2025-04-06 19:05:52,319 [INFO] Augmenting batch 69/150
+2025-04-06 19:06:04,246 [INFO] Augmenting batch 70/150
+2025-04-06 19:06:15,363 [INFO] Augmenting batch 71/150
+2025-04-06 19:06:26,877 [INFO] Augmenting batch 72/150
+2025-04-06 19:06:38,438 [INFO] Augmenting batch 73/150
+2025-04-06 19:06:50,818 [INFO] Augmenting batch 74/150
+2025-04-06 19:07:02,375 [INFO] Augmenting batch 75/150
+2025-04-06 19:07:13,639 [INFO] Augmenting batch 76/150
+2025-04-06 19:07:24,690 [INFO] Augmenting batch 77/150
+2025-04-06 19:07:36,326 [INFO] Augmenting batch 78/150
+2025-04-06 19:07:47,741 [INFO] Augmenting batch 79/150
+2025-04-06 19:07:59,042 [INFO] Augmenting batch 80/150
+2025-04-06 19:08:10,279 [INFO] Augmenting batch 81/150
+2025-04-06 19:08:21,561 [INFO] Augmenting batch 82/150
+2025-04-06 19:08:33,095 [INFO] Augmenting batch 83/150
+2025-04-06 19:08:44,393 [INFO] Augmenting batch 84/150
+2025-04-06 19:08:55,470 [INFO] Augmenting batch 85/150
+2025-04-06 19:09:06,962 [INFO] Augmenting batch 86/150
+2025-04-06 19:09:18,214 [INFO] Augmenting batch 87/150
+2025-04-06 19:09:29,418 [INFO] Augmenting batch 88/150
+2025-04-06 19:09:40,701 [INFO] Augmenting batch 89/150
+2025-04-06 19:09:51,829 [INFO] Augmenting batch 90/150
+2025-04-06 19:10:03,284 [INFO] Augmenting batch 91/150
+2025-04-06 19:10:14,314 [INFO] Augmenting batch 92/150
+2025-04-06 19:10:25,378 [INFO] Augmenting batch 93/150
+2025-04-06 19:10:36,875 [INFO] Augmenting batch 94/150
+2025-04-06 19:10:48,294 [INFO] Augmenting batch 95/150
+2025-04-06 19:10:59,139 [INFO] Augmenting batch 96/150
+2025-04-06 19:11:10,475 [INFO] Augmenting batch 97/150
+2025-04-06 19:11:21,681 [INFO] Augmenting batch 98/150
+2025-04-06 19:11:33,093 [INFO] Augmenting batch 99/150
+2025-04-06 19:11:43,972 [INFO] Augmenting batch 100/150
+2025-04-06 19:11:55,171 [INFO] Augmenting batch 101/150
+2025-04-06 19:12:06,505 [INFO] Augmenting batch 102/150
+2025-04-06 19:12:17,776 [INFO] Augmenting batch 103/150
+2025-04-06 19:12:28,542 [INFO] Augmenting batch 104/150
+2025-04-06 19:12:40,001 [INFO] Augmenting batch 105/150
+2025-04-06 19:12:51,230 [INFO] Augmenting batch 106/150
+2025-04-06 19:13:02,500 [INFO] Augmenting batch 107/150
+2025-04-06 19:13:13,404 [INFO] Augmenting batch 108/150
+2025-04-06 19:13:24,648 [INFO] Augmenting batch 109/150
+2025-04-06 19:13:36,051 [INFO] Augmenting batch 110/150
+2025-04-06 19:13:47,156 [INFO] Augmenting batch 111/150
+2025-04-06 19:13:58,130 [INFO] Augmenting batch 112/150
+2025-04-06 19:14:10,760 [INFO] Augmenting batch 113/150
+2025-04-06 19:14:21,658 [INFO] Augmenting batch 114/150
+2025-04-06 19:14:32,546 [INFO] Augmenting batch 115/150
+2025-04-06 19:14:43,769 [INFO] Augmenting batch 116/150
+2025-04-06 19:14:54,856 [INFO] Augmenting batch 117/150
+2025-04-06 19:15:05,795 [INFO] Augmenting batch 118/150
+2025-04-06 19:15:16,641 [INFO] Augmenting batch 119/150
+2025-04-06 19:15:27,523 [INFO] Augmenting batch 120/150
+2025-04-06 19:15:38,389 [INFO] Augmenting batch 121/150
+2025-04-06 19:15:49,248 [INFO] Augmenting batch 122/150
+2025-04-06 19:16:01,330 [INFO] Augmenting batch 123/150
+2025-04-06 19:16:12,183 [INFO] Augmenting batch 124/150
+2025-04-06 19:16:23,051 [INFO] Augmenting batch 125/150
+2025-04-06 19:16:33,893 [INFO] Augmenting batch 126/150
+2025-04-06 19:16:44,860 [INFO] Augmenting batch 127/150
+2025-04-06 19:16:55,727 [INFO] Augmenting batch 128/150
+2025-04-06 19:17:06,619 [INFO] Augmenting batch 129/150
+2025-04-06 19:17:17,551 [INFO] Augmenting batch 130/150
+2025-04-06 19:17:28,503 [INFO] Augmenting batch 131/150
+2025-04-06 19:17:39,391 [INFO] Augmenting batch 132/150
+2025-04-06 19:17:50,261 [INFO] Augmenting batch 133/150
+2025-04-06 19:18:01,221 [INFO] Augmenting batch 134/150
+2025-04-06 19:18:12,145 [INFO] Augmenting batch 135/150
+2025-04-06 19:18:23,063 [INFO] Augmenting batch 136/150
+2025-04-06 19:18:33,993 [INFO] Augmenting batch 137/150
+2025-04-06 19:18:44,887 [INFO] Augmenting batch 138/150
+2025-04-06 19:18:56,666 [INFO] Augmenting batch 139/150
+2025-04-06 19:19:07,576 [INFO] Augmenting batch 140/150
+2025-04-06 19:19:18,446 [INFO] Augmenting batch 141/150
+2025-04-06 19:19:29,294 [INFO] Augmenting batch 142/150
+2025-04-06 19:19:40,216 [INFO] Augmenting batch 143/150
+2025-04-06 19:19:51,042 [INFO] Augmenting batch 144/150
+2025-04-06 19:20:01,989 [INFO] Augmenting batch 145/150
+2025-04-06 19:20:12,848 [INFO] Augmenting batch 146/150
+2025-04-06 19:20:23,709 [INFO] Augmenting batch 147/150
+2025-04-06 19:20:35,683 [INFO] Augmenting batch 148/150
+2025-04-06 19:20:46,667 [INFO] Augmenting batch 149/150
+2025-04-06 19:20:57,537 [INFO] Augmenting batch 150/150
+2025-04-06 19:21:08,468 [INFO] Data augmentation complete:
+2025-04-06 19:21:08,468 [INFO]   Original images: 3000
+2025-04-06 19:21:08,468 [INFO]   Augmented images: 9000
+2025-04-06 19:21:08,468 [INFO]   Total images: 12000
+2025-04-06 19:21:09,609 [INFO] 
+================================================================================
+2025-04-06 19:21:09,609 [INFO] STEP: Preparing Dataset
+2025-04-06 19:21:09,609 [INFO] ================================================================================
+2025-04-06 19:21:09,679 [INFO] Found 12000 image files
+2025-04-06 19:21:10,298 [INFO] Found 12000 matching image-mask pairs
+2025-04-06 19:21:10,305 [INFO] Dataset splits:
+2025-04-06 19:21:10,306 [INFO]   Training: 8399 samples
+2025-04-06 19:21:10,306 [INFO]   Validation: 1801 samples
+2025-04-06 19:21:10,306 [INFO]   Test: 1800 samples
+2025-04-06 19:21:11,092 [INFO] 
+================================================================================
+2025-04-06 19:21:11,092 [INFO] STEP: Training RESNET50 Model
+2025-04-06 19:21:11,092 [INFO] ================================================================================
+2025-04-06 19:21:11,092 [INFO] Building ResNet50 model...
+2025-04-06 19:21:12,845 [INFO] Model summary:
+2025-04-06 19:21:12,845 [INFO] Model: "model"
+2025-04-06 19:21:12,845 [INFO] __________________________________________________________________________________________________
+2025-04-06 19:21:12,845 [INFO]  Layer (type)                   Output Shape         Param #     Connected to                     
+2025-04-06 19:21:12,845 [INFO] ==================================================================================================
+2025-04-06 19:21:12,846 [INFO]  input_1 (InputLayer)           [(None, 224, 224, 3  0           []                               
+2025-04-06 19:21:12,846 [INFO]                                 )]                                                                
+2025-04-06 19:21:12,846 [INFO]                                                                                                   
+2025-04-06 19:21:12,846 [INFO]  conv1_pad (ZeroPadding2D)      (None, 230, 230, 3)  0           ['input_1[0][0]']                
+2025-04-06 19:21:12,846 [INFO]                                                                                                   
+2025-04-06 19:21:12,846 [INFO]  conv1_conv (Conv2D)            (None, 112, 112, 64  9472        ['conv1_pad[0][0]']              
+2025-04-06 19:21:12,846 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,846 [INFO]                                                                                                   
+2025-04-06 19:21:12,846 [INFO]  conv1_bn (BatchNormalization)  (None, 112, 112, 64  256         ['conv1_conv[0][0]']             
+2025-04-06 19:21:12,846 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,846 [INFO]                                                                                                   
+2025-04-06 19:21:12,847 [INFO]  conv1_relu (Activation)        (None, 112, 112, 64  0           ['conv1_bn[0][0]']               
+2025-04-06 19:21:12,847 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,847 [INFO]                                                                                                   
+2025-04-06 19:21:12,847 [INFO]  pool1_pad (ZeroPadding2D)      (None, 114, 114, 64  0           ['conv1_relu[0][0]']             
+2025-04-06 19:21:12,847 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,847 [INFO]                                                                                                   
+2025-04-06 19:21:12,847 [INFO]  pool1_pool (MaxPooling2D)      (None, 56, 56, 64)   0           ['pool1_pad[0][0]']              
+2025-04-06 19:21:12,847 [INFO]                                                                                                   
+2025-04-06 19:21:12,847 [INFO]  conv2_block1_1_conv (Conv2D)   (None, 56, 56, 64)   4160        ['pool1_pool[0][0]']             
+2025-04-06 19:21:12,847 [INFO]                                                                                                   
+2025-04-06 19:21:12,848 [INFO]  conv2_block1_1_bn (BatchNormal  (None, 56, 56, 64)  256         ['conv2_block1_1_conv[0][0]']    
+2025-04-06 19:21:12,848 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,848 [INFO]                                                                                                   
+2025-04-06 19:21:12,848 [INFO]  conv2_block1_1_relu (Activatio  (None, 56, 56, 64)  0           ['conv2_block1_1_bn[0][0]']      
+2025-04-06 19:21:12,848 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,848 [INFO]                                                                                                   
+2025-04-06 19:21:12,848 [INFO]  conv2_block1_2_conv (Conv2D)   (None, 56, 56, 64)   36928       ['conv2_block1_1_relu[0][0]']    
+2025-04-06 19:21:12,849 [INFO]                                                                                                   
+2025-04-06 19:21:12,849 [INFO]  conv2_block1_2_bn (BatchNormal  (None, 56, 56, 64)  256         ['conv2_block1_2_conv[0][0]']    
+2025-04-06 19:21:12,849 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,849 [INFO]                                                                                                   
+2025-04-06 19:21:12,849 [INFO]  conv2_block1_2_relu (Activatio  (None, 56, 56, 64)  0           ['conv2_block1_2_bn[0][0]']      
+2025-04-06 19:21:12,849 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,849 [INFO]                                                                                                   
+2025-04-06 19:21:12,849 [INFO]  conv2_block1_0_conv (Conv2D)   (None, 56, 56, 256)  16640       ['pool1_pool[0][0]']             
+2025-04-06 19:21:12,849 [INFO]                                                                                                   
+2025-04-06 19:21:12,850 [INFO]  conv2_block1_3_conv (Conv2D)   (None, 56, 56, 256)  16640       ['conv2_block1_2_relu[0][0]']    
+2025-04-06 19:21:12,850 [INFO]                                                                                                   
+2025-04-06 19:21:12,850 [INFO]  conv2_block1_0_bn (BatchNormal  (None, 56, 56, 256)  1024       ['conv2_block1_0_conv[0][0]']    
+2025-04-06 19:21:12,850 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,850 [INFO]                                                                                                   
+2025-04-06 19:21:12,850 [INFO]  conv2_block1_3_bn (BatchNormal  (None, 56, 56, 256)  1024       ['conv2_block1_3_conv[0][0]']    
+2025-04-06 19:21:12,850 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,850 [INFO]                                                                                                   
+2025-04-06 19:21:12,850 [INFO]  conv2_block1_add (Add)         (None, 56, 56, 256)  0           ['conv2_block1_0_bn[0][0]',      
+2025-04-06 19:21:12,850 [INFO]                                                                   'conv2_block1_3_bn[0][0]']      
+2025-04-06 19:21:12,851 [INFO]                                                                                                   
+2025-04-06 19:21:12,851 [INFO]  conv2_block1_out (Activation)  (None, 56, 56, 256)  0           ['conv2_block1_add[0][0]']       
+2025-04-06 19:21:12,851 [INFO]                                                                                                   
+2025-04-06 19:21:12,851 [INFO]  conv2_block2_1_conv (Conv2D)   (None, 56, 56, 64)   16448       ['conv2_block1_out[0][0]']       
+2025-04-06 19:21:12,851 [INFO]                                                                                                   
+2025-04-06 19:21:12,851 [INFO]  conv2_block2_1_bn (BatchNormal  (None, 56, 56, 64)  256         ['conv2_block2_1_conv[0][0]']    
+2025-04-06 19:21:12,851 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,851 [INFO]                                                                                                   
+2025-04-06 19:21:12,851 [INFO]  conv2_block2_1_relu (Activatio  (None, 56, 56, 64)  0           ['conv2_block2_1_bn[0][0]']      
+2025-04-06 19:21:12,851 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,852 [INFO]                                                                                                   
+2025-04-06 19:21:12,852 [INFO]  conv2_block2_2_conv (Conv2D)   (None, 56, 56, 64)   36928       ['conv2_block2_1_relu[0][0]']    
+2025-04-06 19:21:12,852 [INFO]                                                                                                   
+2025-04-06 19:21:12,852 [INFO]  conv2_block2_2_bn (BatchNormal  (None, 56, 56, 64)  256         ['conv2_block2_2_conv[0][0]']    
+2025-04-06 19:21:12,852 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,852 [INFO]                                                                                                   
+2025-04-06 19:21:12,852 [INFO]  conv2_block2_2_relu (Activatio  (None, 56, 56, 64)  0           ['conv2_block2_2_bn[0][0]']      
+2025-04-06 19:21:12,852 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,852 [INFO]                                                                                                   
+2025-04-06 19:21:12,852 [INFO]  conv2_block2_3_conv (Conv2D)   (None, 56, 56, 256)  16640       ['conv2_block2_2_relu[0][0]']    
+2025-04-06 19:21:12,853 [INFO]                                                                                                   
+2025-04-06 19:21:12,853 [INFO]  conv2_block2_3_bn (BatchNormal  (None, 56, 56, 256)  1024       ['conv2_block2_3_conv[0][0]']    
+2025-04-06 19:21:12,853 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,853 [INFO]                                                                                                   
+2025-04-06 19:21:12,853 [INFO]  conv2_block2_add (Add)         (None, 56, 56, 256)  0           ['conv2_block1_out[0][0]',       
+2025-04-06 19:21:12,853 [INFO]                                                                   'conv2_block2_3_bn[0][0]']      
+2025-04-06 19:21:12,853 [INFO]                                                                                                   
+2025-04-06 19:21:12,853 [INFO]  conv2_block2_out (Activation)  (None, 56, 56, 256)  0           ['conv2_block2_add[0][0]']       
+2025-04-06 19:21:12,853 [INFO]                                                                                                   
+2025-04-06 19:21:12,853 [INFO]  conv2_block3_1_conv (Conv2D)   (None, 56, 56, 64)   16448       ['conv2_block2_out[0][0]']       
+2025-04-06 19:21:12,853 [INFO]                                                                                                   
+2025-04-06 19:21:12,854 [INFO]  conv2_block3_1_bn (BatchNormal  (None, 56, 56, 64)  256         ['conv2_block3_1_conv[0][0]']    
+2025-04-06 19:21:12,854 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,854 [INFO]                                                                                                   
+2025-04-06 19:21:12,854 [INFO]  conv2_block3_1_relu (Activatio  (None, 56, 56, 64)  0           ['conv2_block3_1_bn[0][0]']      
+2025-04-06 19:21:12,854 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,854 [INFO]                                                                                                   
+2025-04-06 19:21:12,854 [INFO]  conv2_block3_2_conv (Conv2D)   (None, 56, 56, 64)   36928       ['conv2_block3_1_relu[0][0]']    
+2025-04-06 19:21:12,854 [INFO]                                                                                                   
+2025-04-06 19:21:12,854 [INFO]  conv2_block3_2_bn (BatchNormal  (None, 56, 56, 64)  256         ['conv2_block3_2_conv[0][0]']    
+2025-04-06 19:21:12,854 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,855 [INFO]                                                                                                   
+2025-04-06 19:21:12,855 [INFO]  conv2_block3_2_relu (Activatio  (None, 56, 56, 64)  0           ['conv2_block3_2_bn[0][0]']      
+2025-04-06 19:21:12,855 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,855 [INFO]                                                                                                   
+2025-04-06 19:21:12,855 [INFO]  conv2_block3_3_conv (Conv2D)   (None, 56, 56, 256)  16640       ['conv2_block3_2_relu[0][0]']    
+2025-04-06 19:21:12,855 [INFO]                                                                                                   
+2025-04-06 19:21:12,855 [INFO]  conv2_block3_3_bn (BatchNormal  (None, 56, 56, 256)  1024       ['conv2_block3_3_conv[0][0]']    
+2025-04-06 19:21:12,855 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,855 [INFO]                                                                                                   
+2025-04-06 19:21:12,855 [INFO]  conv2_block3_add (Add)         (None, 56, 56, 256)  0           ['conv2_block2_out[0][0]',       
+2025-04-06 19:21:12,855 [INFO]                                                                   'conv2_block3_3_bn[0][0]']      
+2025-04-06 19:21:12,856 [INFO]                                                                                                   
+2025-04-06 19:21:12,856 [INFO]  conv2_block3_out (Activation)  (None, 56, 56, 256)  0           ['conv2_block3_add[0][0]']       
+2025-04-06 19:21:12,856 [INFO]                                                                                                   
+2025-04-06 19:21:12,856 [INFO]  conv3_block1_1_conv (Conv2D)   (None, 28, 28, 128)  32896       ['conv2_block3_out[0][0]']       
+2025-04-06 19:21:12,856 [INFO]                                                                                                   
+2025-04-06 19:21:12,856 [INFO]  conv3_block1_1_bn (BatchNormal  (None, 28, 28, 128)  512        ['conv3_block1_1_conv[0][0]']    
+2025-04-06 19:21:12,856 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,856 [INFO]                                                                                                   
+2025-04-06 19:21:12,856 [INFO]  conv3_block1_1_relu (Activatio  (None, 28, 28, 128)  0          ['conv3_block1_1_bn[0][0]']      
+2025-04-06 19:21:12,856 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,856 [INFO]                                                                                                   
+2025-04-06 19:21:12,857 [INFO]  conv3_block1_2_conv (Conv2D)   (None, 28, 28, 128)  147584      ['conv3_block1_1_relu[0][0]']    
+2025-04-06 19:21:12,857 [INFO]                                                                                                   
+2025-04-06 19:21:12,857 [INFO]  conv3_block1_2_bn (BatchNormal  (None, 28, 28, 128)  512        ['conv3_block1_2_conv[0][0]']    
+2025-04-06 19:21:12,857 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,857 [INFO]                                                                                                   
+2025-04-06 19:21:12,857 [INFO]  conv3_block1_2_relu (Activatio  (None, 28, 28, 128)  0          ['conv3_block1_2_bn[0][0]']      
+2025-04-06 19:21:12,857 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,857 [INFO]                                                                                                   
+2025-04-06 19:21:12,857 [INFO]  conv3_block1_0_conv (Conv2D)   (None, 28, 28, 512)  131584      ['conv2_block3_out[0][0]']       
+2025-04-06 19:21:12,857 [INFO]                                                                                                   
+2025-04-06 19:21:12,858 [INFO]  conv3_block1_3_conv (Conv2D)   (None, 28, 28, 512)  66048       ['conv3_block1_2_relu[0][0]']    
+2025-04-06 19:21:12,858 [INFO]                                                                                                   
+2025-04-06 19:21:12,858 [INFO]  conv3_block1_0_bn (BatchNormal  (None, 28, 28, 512)  2048       ['conv3_block1_0_conv[0][0]']    
+2025-04-06 19:21:12,858 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,858 [INFO]                                                                                                   
+2025-04-06 19:21:12,858 [INFO]  conv3_block1_3_bn (BatchNormal  (None, 28, 28, 512)  2048       ['conv3_block1_3_conv[0][0]']    
+2025-04-06 19:21:12,858 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,858 [INFO]                                                                                                   
+2025-04-06 19:21:12,858 [INFO]  conv3_block1_add (Add)         (None, 28, 28, 512)  0           ['conv3_block1_0_bn[0][0]',      
+2025-04-06 19:21:12,858 [INFO]                                                                   'conv3_block1_3_bn[0][0]']      
+2025-04-06 19:21:12,859 [INFO]                                                                                                   
+2025-04-06 19:21:12,859 [INFO]  conv3_block1_out (Activation)  (None, 28, 28, 512)  0           ['conv3_block1_add[0][0]']       
+2025-04-06 19:21:12,859 [INFO]                                                                                                   
+2025-04-06 19:21:12,859 [INFO]  conv3_block2_1_conv (Conv2D)   (None, 28, 28, 128)  65664       ['conv3_block1_out[0][0]']       
+2025-04-06 19:21:12,859 [INFO]                                                                                                   
+2025-04-06 19:21:12,859 [INFO]  conv3_block2_1_bn (BatchNormal  (None, 28, 28, 128)  512        ['conv3_block2_1_conv[0][0]']    
+2025-04-06 19:21:12,859 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,859 [INFO]                                                                                                   
+2025-04-06 19:21:12,859 [INFO]  conv3_block2_1_relu (Activatio  (None, 28, 28, 128)  0          ['conv3_block2_1_bn[0][0]']      
+2025-04-06 19:21:12,859 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,859 [INFO]                                                                                                   
+2025-04-06 19:21:12,860 [INFO]  conv3_block2_2_conv (Conv2D)   (None, 28, 28, 128)  147584      ['conv3_block2_1_relu[0][0]']    
+2025-04-06 19:21:12,860 [INFO]                                                                                                   
+2025-04-06 19:21:12,860 [INFO]  conv3_block2_2_bn (BatchNormal  (None, 28, 28, 128)  512        ['conv3_block2_2_conv[0][0]']    
+2025-04-06 19:21:12,860 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,860 [INFO]                                                                                                   
+2025-04-06 19:21:12,860 [INFO]  conv3_block2_2_relu (Activatio  (None, 28, 28, 128)  0          ['conv3_block2_2_bn[0][0]']      
+2025-04-06 19:21:12,860 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,860 [INFO]                                                                                                   
+2025-04-06 19:21:12,860 [INFO]  conv3_block2_3_conv (Conv2D)   (None, 28, 28, 512)  66048       ['conv3_block2_2_relu[0][0]']    
+2025-04-06 19:21:12,860 [INFO]                                                                                                   
+2025-04-06 19:21:12,861 [INFO]  conv3_block2_3_bn (BatchNormal  (None, 28, 28, 512)  2048       ['conv3_block2_3_conv[0][0]']    
+2025-04-06 19:21:12,861 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,861 [INFO]                                                                                                   
+2025-04-06 19:21:12,861 [INFO]  conv3_block2_add (Add)         (None, 28, 28, 512)  0           ['conv3_block1_out[0][0]',       
+2025-04-06 19:21:12,861 [INFO]                                                                   'conv3_block2_3_bn[0][0]']      
+2025-04-06 19:21:12,861 [INFO]                                                                                                   
+2025-04-06 19:21:12,861 [INFO]  conv3_block2_out (Activation)  (None, 28, 28, 512)  0           ['conv3_block2_add[0][0]']       
+2025-04-06 19:21:12,861 [INFO]                                                                                                   
+2025-04-06 19:21:12,861 [INFO]  conv3_block3_1_conv (Conv2D)   (None, 28, 28, 128)  65664       ['conv3_block2_out[0][0]']       
+2025-04-06 19:21:12,861 [INFO]                                                                                                   
+2025-04-06 19:21:12,862 [INFO]  conv3_block3_1_bn (BatchNormal  (None, 28, 28, 128)  512        ['conv3_block3_1_conv[0][0]']    
+2025-04-06 19:21:12,862 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,862 [INFO]                                                                                                   
+2025-04-06 19:21:12,862 [INFO]  conv3_block3_1_relu (Activatio  (None, 28, 28, 128)  0          ['conv3_block3_1_bn[0][0]']      
+2025-04-06 19:21:12,862 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,862 [INFO]                                                                                                   
+2025-04-06 19:21:12,862 [INFO]  conv3_block3_2_conv (Conv2D)   (None, 28, 28, 128)  147584      ['conv3_block3_1_relu[0][0]']    
+2025-04-06 19:21:12,862 [INFO]                                                                                                   
+2025-04-06 19:21:12,862 [INFO]  conv3_block3_2_bn (BatchNormal  (None, 28, 28, 128)  512        ['conv3_block3_2_conv[0][0]']    
+2025-04-06 19:21:12,862 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,862 [INFO]                                                                                                   
+2025-04-06 19:21:12,863 [INFO]  conv3_block3_2_relu (Activatio  (None, 28, 28, 128)  0          ['conv3_block3_2_bn[0][0]']      
+2025-04-06 19:21:12,863 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,863 [INFO]                                                                                                   
+2025-04-06 19:21:12,863 [INFO]  conv3_block3_3_conv (Conv2D)   (None, 28, 28, 512)  66048       ['conv3_block3_2_relu[0][0]']    
+2025-04-06 19:21:12,863 [INFO]                                                                                                   
+2025-04-06 19:21:12,863 [INFO]  conv3_block3_3_bn (BatchNormal  (None, 28, 28, 512)  2048       ['conv3_block3_3_conv[0][0]']    
+2025-04-06 19:21:12,863 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,863 [INFO]                                                                                                   
+2025-04-06 19:21:12,864 [INFO]  conv3_block3_add (Add)         (None, 28, 28, 512)  0           ['conv3_block2_out[0][0]',       
+2025-04-06 19:21:12,864 [INFO]                                                                   'conv3_block3_3_bn[0][0]']      
+2025-04-06 19:21:12,864 [INFO]                                                                                                   
+2025-04-06 19:21:12,864 [INFO]  conv3_block3_out (Activation)  (None, 28, 28, 512)  0           ['conv3_block3_add[0][0]']       
+2025-04-06 19:21:12,864 [INFO]                                                                                                   
+2025-04-06 19:21:12,864 [INFO]  conv3_block4_1_conv (Conv2D)   (None, 28, 28, 128)  65664       ['conv3_block3_out[0][0]']       
+2025-04-06 19:21:12,864 [INFO]                                                                                                   
+2025-04-06 19:21:12,864 [INFO]  conv3_block4_1_bn (BatchNormal  (None, 28, 28, 128)  512        ['conv3_block4_1_conv[0][0]']    
+2025-04-06 19:21:12,864 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,864 [INFO]                                                                                                   
+2025-04-06 19:21:12,865 [INFO]  conv3_block4_1_relu (Activatio  (None, 28, 28, 128)  0          ['conv3_block4_1_bn[0][0]']      
+2025-04-06 19:21:12,865 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,865 [INFO]                                                                                                   
+2025-04-06 19:21:12,865 [INFO]  conv3_block4_2_conv (Conv2D)   (None, 28, 28, 128)  147584      ['conv3_block4_1_relu[0][0]']    
+2025-04-06 19:21:12,865 [INFO]                                                                                                   
+2025-04-06 19:21:12,865 [INFO]  conv3_block4_2_bn (BatchNormal  (None, 28, 28, 128)  512        ['conv3_block4_2_conv[0][0]']    
+2025-04-06 19:21:12,866 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,866 [INFO]                                                                                                   
+2025-04-06 19:21:12,866 [INFO]  conv3_block4_2_relu (Activatio  (None, 28, 28, 128)  0          ['conv3_block4_2_bn[0][0]']      
+2025-04-06 19:21:12,866 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,866 [INFO]                                                                                                   
+2025-04-06 19:21:12,866 [INFO]  conv3_block4_3_conv (Conv2D)   (None, 28, 28, 512)  66048       ['conv3_block4_2_relu[0][0]']    
+2025-04-06 19:21:12,866 [INFO]                                                                                                   
+2025-04-06 19:21:12,867 [INFO]  conv3_block4_3_bn (BatchNormal  (None, 28, 28, 512)  2048       ['conv3_block4_3_conv[0][0]']    
+2025-04-06 19:21:12,867 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,867 [INFO]                                                                                                   
+2025-04-06 19:21:12,867 [INFO]  conv3_block4_add (Add)         (None, 28, 28, 512)  0           ['conv3_block3_out[0][0]',       
+2025-04-06 19:21:12,867 [INFO]                                                                   'conv3_block4_3_bn[0][0]']      
+2025-04-06 19:21:12,867 [INFO]                                                                                                   
+2025-04-06 19:21:12,867 [INFO]  conv3_block4_out (Activation)  (None, 28, 28, 512)  0           ['conv3_block4_add[0][0]']       
+2025-04-06 19:21:12,867 [INFO]                                                                                                   
+2025-04-06 19:21:12,867 [INFO]  conv4_block1_1_conv (Conv2D)   (None, 14, 14, 256)  131328      ['conv3_block4_out[0][0]']       
+2025-04-06 19:21:12,867 [INFO]                                                                                                   
+2025-04-06 19:21:12,868 [INFO]  conv4_block1_1_bn (BatchNormal  (None, 14, 14, 256)  1024       ['conv4_block1_1_conv[0][0]']    
+2025-04-06 19:21:12,868 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,868 [INFO]                                                                                                   
+2025-04-06 19:21:12,868 [INFO]  conv4_block1_1_relu (Activatio  (None, 14, 14, 256)  0          ['conv4_block1_1_bn[0][0]']      
+2025-04-06 19:21:12,868 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,868 [INFO]                                                                                                   
+2025-04-06 19:21:12,868 [INFO]  conv4_block1_2_conv (Conv2D)   (None, 14, 14, 256)  590080      ['conv4_block1_1_relu[0][0]']    
+2025-04-06 19:21:12,868 [INFO]                                                                                                   
+2025-04-06 19:21:12,868 [INFO]  conv4_block1_2_bn (BatchNormal  (None, 14, 14, 256)  1024       ['conv4_block1_2_conv[0][0]']    
+2025-04-06 19:21:12,868 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,868 [INFO]                                                                                                   
+2025-04-06 19:21:12,869 [INFO]  conv4_block1_2_relu (Activatio  (None, 14, 14, 256)  0          ['conv4_block1_2_bn[0][0]']      
+2025-04-06 19:21:12,869 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,869 [INFO]                                                                                                   
+2025-04-06 19:21:12,869 [INFO]  conv4_block1_0_conv (Conv2D)   (None, 14, 14, 1024  525312      ['conv3_block4_out[0][0]']       
+2025-04-06 19:21:12,869 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,869 [INFO]                                                                                                   
+2025-04-06 19:21:12,869 [INFO]  conv4_block1_3_conv (Conv2D)   (None, 14, 14, 1024  263168      ['conv4_block1_2_relu[0][0]']    
+2025-04-06 19:21:12,869 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,869 [INFO]                                                                                                   
+2025-04-06 19:21:12,869 [INFO]  conv4_block1_0_bn (BatchNormal  (None, 14, 14, 1024  4096       ['conv4_block1_0_conv[0][0]']    
+2025-04-06 19:21:12,869 [INFO]  ization)                       )                                                                 
+2025-04-06 19:21:12,870 [INFO]                                                                                                   
+2025-04-06 19:21:12,870 [INFO]  conv4_block1_3_bn (BatchNormal  (None, 14, 14, 1024  4096       ['conv4_block1_3_conv[0][0]']    
+2025-04-06 19:21:12,870 [INFO]  ization)                       )                                                                 
+2025-04-06 19:21:12,870 [INFO]                                                                                                   
+2025-04-06 19:21:12,870 [INFO]  conv4_block1_add (Add)         (None, 14, 14, 1024  0           ['conv4_block1_0_bn[0][0]',      
+2025-04-06 19:21:12,870 [INFO]                                 )                                 'conv4_block1_3_bn[0][0]']      
+2025-04-06 19:21:12,870 [INFO]                                                                                                   
+2025-04-06 19:21:12,870 [INFO]  conv4_block1_out (Activation)  (None, 14, 14, 1024  0           ['conv4_block1_add[0][0]']       
+2025-04-06 19:21:12,870 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,870 [INFO]                                                                                                   
+2025-04-06 19:21:12,870 [INFO]  conv4_block2_1_conv (Conv2D)   (None, 14, 14, 256)  262400      ['conv4_block1_out[0][0]']       
+2025-04-06 19:21:12,870 [INFO]                                                                                                   
+2025-04-06 19:21:12,871 [INFO]  conv4_block2_1_bn (BatchNormal  (None, 14, 14, 256)  1024       ['conv4_block2_1_conv[0][0]']    
+2025-04-06 19:21:12,871 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,871 [INFO]                                                                                                   
+2025-04-06 19:21:12,871 [INFO]  conv4_block2_1_relu (Activatio  (None, 14, 14, 256)  0          ['conv4_block2_1_bn[0][0]']      
+2025-04-06 19:21:12,871 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,871 [INFO]                                                                                                   
+2025-04-06 19:21:12,871 [INFO]  conv4_block2_2_conv (Conv2D)   (None, 14, 14, 256)  590080      ['conv4_block2_1_relu[0][0]']    
+2025-04-06 19:21:12,871 [INFO]                                                                                                   
+2025-04-06 19:21:12,871 [INFO]  conv4_block2_2_bn (BatchNormal  (None, 14, 14, 256)  1024       ['conv4_block2_2_conv[0][0]']    
+2025-04-06 19:21:12,872 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,872 [INFO]                                                                                                   
+2025-04-06 19:21:12,872 [INFO]  conv4_block2_2_relu (Activatio  (None, 14, 14, 256)  0          ['conv4_block2_2_bn[0][0]']      
+2025-04-06 19:21:12,872 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,872 [INFO]                                                                                                   
+2025-04-06 19:21:12,872 [INFO]  conv4_block2_3_conv (Conv2D)   (None, 14, 14, 1024  263168      ['conv4_block2_2_relu[0][0]']    
+2025-04-06 19:21:12,872 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,872 [INFO]                                                                                                   
+2025-04-06 19:21:12,872 [INFO]  conv4_block2_3_bn (BatchNormal  (None, 14, 14, 1024  4096       ['conv4_block2_3_conv[0][0]']    
+2025-04-06 19:21:12,872 [INFO]  ization)                       )                                                                 
+2025-04-06 19:21:12,872 [INFO]                                                                                                   
+2025-04-06 19:21:12,873 [INFO]  conv4_block2_add (Add)         (None, 14, 14, 1024  0           ['conv4_block1_out[0][0]',       
+2025-04-06 19:21:12,873 [INFO]                                 )                                 'conv4_block2_3_bn[0][0]']      
+2025-04-06 19:21:12,873 [INFO]                                                                                                   
+2025-04-06 19:21:12,873 [INFO]  conv4_block2_out (Activation)  (None, 14, 14, 1024  0           ['conv4_block2_add[0][0]']       
+2025-04-06 19:21:12,873 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,873 [INFO]                                                                                                   
+2025-04-06 19:21:12,873 [INFO]  conv4_block3_1_conv (Conv2D)   (None, 14, 14, 256)  262400      ['conv4_block2_out[0][0]']       
+2025-04-06 19:21:12,873 [INFO]                                                                                                   
+2025-04-06 19:21:12,873 [INFO]  conv4_block3_1_bn (BatchNormal  (None, 14, 14, 256)  1024       ['conv4_block3_1_conv[0][0]']    
+2025-04-06 19:21:12,873 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,873 [INFO]                                                                                                   
+2025-04-06 19:21:12,874 [INFO]  conv4_block3_1_relu (Activatio  (None, 14, 14, 256)  0          ['conv4_block3_1_bn[0][0]']      
+2025-04-06 19:21:12,874 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,874 [INFO]                                                                                                   
+2025-04-06 19:21:12,874 [INFO]  conv4_block3_2_conv (Conv2D)   (None, 14, 14, 256)  590080      ['conv4_block3_1_relu[0][0]']    
+2025-04-06 19:21:12,874 [INFO]                                                                                                   
+2025-04-06 19:21:12,874 [INFO]  conv4_block3_2_bn (BatchNormal  (None, 14, 14, 256)  1024       ['conv4_block3_2_conv[0][0]']    
+2025-04-06 19:21:12,874 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,874 [INFO]                                                                                                   
+2025-04-06 19:21:12,874 [INFO]  conv4_block3_2_relu (Activatio  (None, 14, 14, 256)  0          ['conv4_block3_2_bn[0][0]']      
+2025-04-06 19:21:12,874 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,874 [INFO]                                                                                                   
+2025-04-06 19:21:12,875 [INFO]  conv4_block3_3_conv (Conv2D)   (None, 14, 14, 1024  263168      ['conv4_block3_2_relu[0][0]']    
+2025-04-06 19:21:12,875 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,875 [INFO]                                                                                                   
+2025-04-06 19:21:12,875 [INFO]  conv4_block3_3_bn (BatchNormal  (None, 14, 14, 1024  4096       ['conv4_block3_3_conv[0][0]']    
+2025-04-06 19:21:12,875 [INFO]  ization)                       )                                                                 
+2025-04-06 19:21:12,875 [INFO]                                                                                                   
+2025-04-06 19:21:12,875 [INFO]  conv4_block3_add (Add)         (None, 14, 14, 1024  0           ['conv4_block2_out[0][0]',       
+2025-04-06 19:21:12,875 [INFO]                                 )                                 'conv4_block3_3_bn[0][0]']      
+2025-04-06 19:21:12,875 [INFO]                                                                                                   
+2025-04-06 19:21:12,875 [INFO]  conv4_block3_out (Activation)  (None, 14, 14, 1024  0           ['conv4_block3_add[0][0]']       
+2025-04-06 19:21:12,875 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,875 [INFO]                                                                                                   
+2025-04-06 19:21:12,876 [INFO]  conv4_block4_1_conv (Conv2D)   (None, 14, 14, 256)  262400      ['conv4_block3_out[0][0]']       
+2025-04-06 19:21:12,876 [INFO]                                                                                                   
+2025-04-06 19:21:12,876 [INFO]  conv4_block4_1_bn (BatchNormal  (None, 14, 14, 256)  1024       ['conv4_block4_1_conv[0][0]']    
+2025-04-06 19:21:12,876 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,876 [INFO]                                                                                                   
+2025-04-06 19:21:12,876 [INFO]  conv4_block4_1_relu (Activatio  (None, 14, 14, 256)  0          ['conv4_block4_1_bn[0][0]']      
+2025-04-06 19:21:12,876 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,876 [INFO]                                                                                                   
+2025-04-06 19:21:12,876 [INFO]  conv4_block4_2_conv (Conv2D)   (None, 14, 14, 256)  590080      ['conv4_block4_1_relu[0][0]']    
+2025-04-06 19:21:12,876 [INFO]                                                                                                   
+2025-04-06 19:21:12,877 [INFO]  conv4_block4_2_bn (BatchNormal  (None, 14, 14, 256)  1024       ['conv4_block4_2_conv[0][0]']    
+2025-04-06 19:21:12,877 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,877 [INFO]                                                                                                   
+2025-04-06 19:21:12,877 [INFO]  conv4_block4_2_relu (Activatio  (None, 14, 14, 256)  0          ['conv4_block4_2_bn[0][0]']      
+2025-04-06 19:21:12,877 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,877 [INFO]                                                                                                   
+2025-04-06 19:21:12,877 [INFO]  conv4_block4_3_conv (Conv2D)   (None, 14, 14, 1024  263168      ['conv4_block4_2_relu[0][0]']    
+2025-04-06 19:21:12,877 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,877 [INFO]                                                                                                   
+2025-04-06 19:21:12,877 [INFO]  conv4_block4_3_bn (BatchNormal  (None, 14, 14, 1024  4096       ['conv4_block4_3_conv[0][0]']    
+2025-04-06 19:21:12,877 [INFO]  ization)                       )                                                                 
+2025-04-06 19:21:12,878 [INFO]                                                                                                   
+2025-04-06 19:21:12,878 [INFO]  conv4_block4_add (Add)         (None, 14, 14, 1024  0           ['conv4_block3_out[0][0]',       
+2025-04-06 19:21:12,878 [INFO]                                 )                                 'conv4_block4_3_bn[0][0]']      
+2025-04-06 19:21:12,878 [INFO]                                                                                                   
+2025-04-06 19:21:12,878 [INFO]  conv4_block4_out (Activation)  (None, 14, 14, 1024  0           ['conv4_block4_add[0][0]']       
+2025-04-06 19:21:12,878 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,878 [INFO]                                                                                                   
+2025-04-06 19:21:12,878 [INFO]  conv4_block5_1_conv (Conv2D)   (None, 14, 14, 256)  262400      ['conv4_block4_out[0][0]']       
+2025-04-06 19:21:12,878 [INFO]                                                                                                   
+2025-04-06 19:21:12,878 [INFO]  conv4_block5_1_bn (BatchNormal  (None, 14, 14, 256)  1024       ['conv4_block5_1_conv[0][0]']    
+2025-04-06 19:21:12,878 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,878 [INFO]                                                                                                   
+2025-04-06 19:21:12,879 [INFO]  conv4_block5_1_relu (Activatio  (None, 14, 14, 256)  0          ['conv4_block5_1_bn[0][0]']      
+2025-04-06 19:21:12,879 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,879 [INFO]                                                                                                   
+2025-04-06 19:21:12,879 [INFO]  conv4_block5_2_conv (Conv2D)   (None, 14, 14, 256)  590080      ['conv4_block5_1_relu[0][0]']    
+2025-04-06 19:21:12,879 [INFO]                                                                                                   
+2025-04-06 19:21:12,879 [INFO]  conv4_block5_2_bn (BatchNormal  (None, 14, 14, 256)  1024       ['conv4_block5_2_conv[0][0]']    
+2025-04-06 19:21:12,879 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,879 [INFO]                                                                                                   
+2025-04-06 19:21:12,879 [INFO]  conv4_block5_2_relu (Activatio  (None, 14, 14, 256)  0          ['conv4_block5_2_bn[0][0]']      
+2025-04-06 19:21:12,879 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,880 [INFO]                                                                                                   
+2025-04-06 19:21:12,880 [INFO]  conv4_block5_3_conv (Conv2D)   (None, 14, 14, 1024  263168      ['conv4_block5_2_relu[0][0]']    
+2025-04-06 19:21:12,880 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,880 [INFO]                                                                                                   
+2025-04-06 19:21:12,880 [INFO]  conv4_block5_3_bn (BatchNormal  (None, 14, 14, 1024  4096       ['conv4_block5_3_conv[0][0]']    
+2025-04-06 19:21:12,880 [INFO]  ization)                       )                                                                 
+2025-04-06 19:21:12,880 [INFO]                                                                                                   
+2025-04-06 19:21:12,880 [INFO]  conv4_block5_add (Add)         (None, 14, 14, 1024  0           ['conv4_block4_out[0][0]',       
+2025-04-06 19:21:12,880 [INFO]                                 )                                 'conv4_block5_3_bn[0][0]']      
+2025-04-06 19:21:12,880 [INFO]                                                                                                   
+2025-04-06 19:21:12,880 [INFO]  conv4_block5_out (Activation)  (None, 14, 14, 1024  0           ['conv4_block5_add[0][0]']       
+2025-04-06 19:21:12,881 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,881 [INFO]                                                                                                   
+2025-04-06 19:21:12,881 [INFO]  conv4_block6_1_conv (Conv2D)   (None, 14, 14, 256)  262400      ['conv4_block5_out[0][0]']       
+2025-04-06 19:21:12,881 [INFO]                                                                                                   
+2025-04-06 19:21:12,881 [INFO]  conv4_block6_1_bn (BatchNormal  (None, 14, 14, 256)  1024       ['conv4_block6_1_conv[0][0]']    
+2025-04-06 19:21:12,881 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,881 [INFO]                                                                                                   
+2025-04-06 19:21:12,881 [INFO]  conv4_block6_1_relu (Activatio  (None, 14, 14, 256)  0          ['conv4_block6_1_bn[0][0]']      
+2025-04-06 19:21:12,881 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,881 [INFO]                                                                                                   
+2025-04-06 19:21:12,881 [INFO]  conv4_block6_2_conv (Conv2D)   (None, 14, 14, 256)  590080      ['conv4_block6_1_relu[0][0]']    
+2025-04-06 19:21:12,882 [INFO]                                                                                                   
+2025-04-06 19:21:12,882 [INFO]  conv4_block6_2_bn (BatchNormal  (None, 14, 14, 256)  1024       ['conv4_block6_2_conv[0][0]']    
+2025-04-06 19:21:12,882 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,882 [INFO]                                                                                                   
+2025-04-06 19:21:12,882 [INFO]  conv4_block6_2_relu (Activatio  (None, 14, 14, 256)  0          ['conv4_block6_2_bn[0][0]']      
+2025-04-06 19:21:12,882 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,882 [INFO]                                                                                                   
+2025-04-06 19:21:12,882 [INFO]  conv4_block6_3_conv (Conv2D)   (None, 14, 14, 1024  263168      ['conv4_block6_2_relu[0][0]']    
+2025-04-06 19:21:12,882 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,882 [INFO]                                                                                                   
+2025-04-06 19:21:12,883 [INFO]  conv4_block6_3_bn (BatchNormal  (None, 14, 14, 1024  4096       ['conv4_block6_3_conv[0][0]']    
+2025-04-06 19:21:12,883 [INFO]  ization)                       )                                                                 
+2025-04-06 19:21:12,883 [INFO]                                                                                                   
+2025-04-06 19:21:12,883 [INFO]  conv4_block6_add (Add)         (None, 14, 14, 1024  0           ['conv4_block5_out[0][0]',       
+2025-04-06 19:21:12,883 [INFO]                                 )                                 'conv4_block6_3_bn[0][0]']      
+2025-04-06 19:21:12,883 [INFO]                                                                                                   
+2025-04-06 19:21:12,883 [INFO]  conv4_block6_out (Activation)  (None, 14, 14, 1024  0           ['conv4_block6_add[0][0]']       
+2025-04-06 19:21:12,883 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,883 [INFO]                                                                                                   
+2025-04-06 19:21:12,883 [INFO]  conv5_block1_1_conv (Conv2D)   (None, 7, 7, 512)    524800      ['conv4_block6_out[0][0]']       
+2025-04-06 19:21:12,883 [INFO]                                                                                                   
+2025-04-06 19:21:12,884 [INFO]  conv5_block1_1_bn (BatchNormal  (None, 7, 7, 512)   2048        ['conv5_block1_1_conv[0][0]']    
+2025-04-06 19:21:12,884 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,884 [INFO]                                                                                                   
+2025-04-06 19:21:12,884 [INFO]  conv5_block1_1_relu (Activatio  (None, 7, 7, 512)   0           ['conv5_block1_1_bn[0][0]']      
+2025-04-06 19:21:12,884 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,884 [INFO]                                                                                                   
+2025-04-06 19:21:12,884 [INFO]  conv5_block1_2_conv (Conv2D)   (None, 7, 7, 512)    2359808     ['conv5_block1_1_relu[0][0]']    
+2025-04-06 19:21:12,884 [INFO]                                                                                                   
+2025-04-06 19:21:12,884 [INFO]  conv5_block1_2_bn (BatchNormal  (None, 7, 7, 512)   2048        ['conv5_block1_2_conv[0][0]']    
+2025-04-06 19:21:12,884 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,884 [INFO]                                                                                                   
+2025-04-06 19:21:12,884 [INFO]  conv5_block1_2_relu (Activatio  (None, 7, 7, 512)   0           ['conv5_block1_2_bn[0][0]']      
+2025-04-06 19:21:12,885 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,885 [INFO]                                                                                                   
+2025-04-06 19:21:12,885 [INFO]  conv5_block1_0_conv (Conv2D)   (None, 7, 7, 2048)   2099200     ['conv4_block6_out[0][0]']       
+2025-04-06 19:21:12,885 [INFO]                                                                                                   
+2025-04-06 19:21:12,885 [INFO]  conv5_block1_3_conv (Conv2D)   (None, 7, 7, 2048)   1050624     ['conv5_block1_2_relu[0][0]']    
+2025-04-06 19:21:12,885 [INFO]                                                                                                   
+2025-04-06 19:21:12,885 [INFO]  conv5_block1_0_bn (BatchNormal  (None, 7, 7, 2048)  8192        ['conv5_block1_0_conv[0][0]']    
+2025-04-06 19:21:12,885 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,885 [INFO]                                                                                                   
+2025-04-06 19:21:12,885 [INFO]  conv5_block1_3_bn (BatchNormal  (None, 7, 7, 2048)  8192        ['conv5_block1_3_conv[0][0]']    
+2025-04-06 19:21:12,886 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,886 [INFO]                                                                                                   
+2025-04-06 19:21:12,886 [INFO]  conv5_block1_add (Add)         (None, 7, 7, 2048)   0           ['conv5_block1_0_bn[0][0]',      
+2025-04-06 19:21:12,886 [INFO]                                                                   'conv5_block1_3_bn[0][0]']      
+2025-04-06 19:21:12,886 [INFO]                                                                                                   
+2025-04-06 19:21:12,886 [INFO]  conv5_block1_out (Activation)  (None, 7, 7, 2048)   0           ['conv5_block1_add[0][0]']       
+2025-04-06 19:21:12,886 [INFO]                                                                                                   
+2025-04-06 19:21:12,886 [INFO]  conv5_block2_1_conv (Conv2D)   (None, 7, 7, 512)    1049088     ['conv5_block1_out[0][0]']       
+2025-04-06 19:21:12,886 [INFO]                                                                                                   
+2025-04-06 19:21:12,886 [INFO]  conv5_block2_1_bn (BatchNormal  (None, 7, 7, 512)   2048        ['conv5_block2_1_conv[0][0]']    
+2025-04-06 19:21:12,886 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,886 [INFO]                                                                                                   
+2025-04-06 19:21:12,887 [INFO]  conv5_block2_1_relu (Activatio  (None, 7, 7, 512)   0           ['conv5_block2_1_bn[0][0]']      
+2025-04-06 19:21:12,887 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,887 [INFO]                                                                                                   
+2025-04-06 19:21:12,887 [INFO]  conv5_block2_2_conv (Conv2D)   (None, 7, 7, 512)    2359808     ['conv5_block2_1_relu[0][0]']    
+2025-04-06 19:21:12,887 [INFO]                                                                                                   
+2025-04-06 19:21:12,887 [INFO]  conv5_block2_2_bn (BatchNormal  (None, 7, 7, 512)   2048        ['conv5_block2_2_conv[0][0]']    
+2025-04-06 19:21:12,887 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,887 [INFO]                                                                                                   
+2025-04-06 19:21:12,887 [INFO]  conv5_block2_2_relu (Activatio  (None, 7, 7, 512)   0           ['conv5_block2_2_bn[0][0]']      
+2025-04-06 19:21:12,887 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,887 [INFO]                                                                                                   
+2025-04-06 19:21:12,888 [INFO]  conv5_block2_3_conv (Conv2D)   (None, 7, 7, 2048)   1050624     ['conv5_block2_2_relu[0][0]']    
+2025-04-06 19:21:12,888 [INFO]                                                                                                   
+2025-04-06 19:21:12,888 [INFO]  conv5_block2_3_bn (BatchNormal  (None, 7, 7, 2048)  8192        ['conv5_block2_3_conv[0][0]']    
+2025-04-06 19:21:12,888 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,888 [INFO]                                                                                                   
+2025-04-06 19:21:12,888 [INFO]  conv5_block2_add (Add)         (None, 7, 7, 2048)   0           ['conv5_block1_out[0][0]',       
+2025-04-06 19:21:12,888 [INFO]                                                                   'conv5_block2_3_bn[0][0]']      
+2025-04-06 19:21:12,888 [INFO]                                                                                                   
+2025-04-06 19:21:12,888 [INFO]  conv5_block2_out (Activation)  (None, 7, 7, 2048)   0           ['conv5_block2_add[0][0]']       
+2025-04-06 19:21:12,888 [INFO]                                                                                                   
+2025-04-06 19:21:12,889 [INFO]  conv5_block3_1_conv (Conv2D)   (None, 7, 7, 512)    1049088     ['conv5_block2_out[0][0]']       
+2025-04-06 19:21:12,889 [INFO]                                                                                                   
+2025-04-06 19:21:12,889 [INFO]  conv5_block3_1_bn (BatchNormal  (None, 7, 7, 512)   2048        ['conv5_block3_1_conv[0][0]']    
+2025-04-06 19:21:12,889 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,889 [INFO]                                                                                                   
+2025-04-06 19:21:12,889 [INFO]  conv5_block3_1_relu (Activatio  (None, 7, 7, 512)   0           ['conv5_block3_1_bn[0][0]']      
+2025-04-06 19:21:12,889 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,889 [INFO]                                                                                                   
+2025-04-06 19:21:12,889 [INFO]  conv5_block3_2_conv (Conv2D)   (None, 7, 7, 512)    2359808     ['conv5_block3_1_relu[0][0]']    
+2025-04-06 19:21:12,889 [INFO]                                                                                                   
+2025-04-06 19:21:12,889 [INFO]  conv5_block3_2_bn (BatchNormal  (None, 7, 7, 512)   2048        ['conv5_block3_2_conv[0][0]']    
+2025-04-06 19:21:12,890 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,890 [INFO]                                                                                                   
+2025-04-06 19:21:12,890 [INFO]  conv5_block3_2_relu (Activatio  (None, 7, 7, 512)   0           ['conv5_block3_2_bn[0][0]']      
+2025-04-06 19:21:12,890 [INFO]  n)                                                                                               
+2025-04-06 19:21:12,890 [INFO]                                                                                                   
+2025-04-06 19:21:12,890 [INFO]  conv5_block3_3_conv (Conv2D)   (None, 7, 7, 2048)   1050624     ['conv5_block3_2_relu[0][0]']    
+2025-04-06 19:21:12,890 [INFO]                                                                                                   
+2025-04-06 19:21:12,890 [INFO]  conv5_block3_3_bn (BatchNormal  (None, 7, 7, 2048)  8192        ['conv5_block3_3_conv[0][0]']    
+2025-04-06 19:21:12,890 [INFO]  ization)                                                                                         
+2025-04-06 19:21:12,890 [INFO]                                                                                                   
+2025-04-06 19:21:12,890 [INFO]  conv5_block3_add (Add)         (None, 7, 7, 2048)   0           ['conv5_block2_out[0][0]',       
+2025-04-06 19:21:12,891 [INFO]                                                                   'conv5_block3_3_bn[0][0]']      
+2025-04-06 19:21:12,891 [INFO]                                                                                                   
+2025-04-06 19:21:12,891 [INFO]  conv5_block3_out (Activation)  (None, 7, 7, 2048)   0           ['conv5_block3_add[0][0]']       
+2025-04-06 19:21:12,891 [INFO]                                                                                                   
+2025-04-06 19:21:12,891 [INFO]  conv2d_transpose (Conv2DTransp  (None, 14, 14, 256)  4718848    ['conv5_block3_out[0][0]']       
+2025-04-06 19:21:12,891 [INFO]  ose)                                                                                             
+2025-04-06 19:21:12,891 [INFO]                                                                                                   
+2025-04-06 19:21:12,891 [INFO]  resizing (Resizing)            (None, 14, 14, 256)  0           ['conv2d_transpose[0][0]']       
+2025-04-06 19:21:12,891 [INFO]                                                                                                   
+2025-04-06 19:21:12,891 [INFO]  concatenate (Concatenate)      (None, 14, 14, 1280  0           ['resizing[0][0]',               
+2025-04-06 19:21:12,891 [INFO]                                 )                                 'conv4_block6_out[0][0]']       
+2025-04-06 19:21:12,891 [INFO]                                                                                                   
+2025-04-06 19:21:12,892 [INFO]  conv2d (Conv2D)                (None, 14, 14, 256)  2949376     ['concatenate[0][0]']            
+2025-04-06 19:21:12,892 [INFO]                                                                                                   
+2025-04-06 19:21:12,892 [INFO]  conv2d_1 (Conv2D)              (None, 14, 14, 256)  590080      ['conv2d[0][0]']                 
+2025-04-06 19:21:12,892 [INFO]                                                                                                   
+2025-04-06 19:21:12,892 [INFO]  conv2d_transpose_1 (Conv2DTran  (None, 28, 28, 256)  590080     ['conv2d_1[0][0]']               
+2025-04-06 19:21:12,892 [INFO]  spose)                                                                                           
+2025-04-06 19:21:12,892 [INFO]                                                                                                   
+2025-04-06 19:21:12,892 [INFO]  resizing_1 (Resizing)          (None, 28, 28, 256)  0           ['conv2d_transpose_1[0][0]']     
+2025-04-06 19:21:12,892 [INFO]                                                                                                   
+2025-04-06 19:21:12,892 [INFO]  concatenate_1 (Concatenate)    (None, 28, 28, 768)  0           ['resizing_1[0][0]',             
+2025-04-06 19:21:12,892 [INFO]                                                                   'conv3_block4_out[0][0]']       
+2025-04-06 19:21:12,893 [INFO]                                                                                                   
+2025-04-06 19:21:12,893 [INFO]  conv2d_2 (Conv2D)              (None, 28, 28, 256)  1769728     ['concatenate_1[0][0]']          
+2025-04-06 19:21:12,893 [INFO]                                                                                                   
+2025-04-06 19:21:12,893 [INFO]  conv2d_3 (Conv2D)              (None, 28, 28, 256)  590080      ['conv2d_2[0][0]']               
+2025-04-06 19:21:12,893 [INFO]                                                                                                   
+2025-04-06 19:21:12,893 [INFO]  conv2d_transpose_2 (Conv2DTran  (None, 56, 56, 256)  590080     ['conv2d_3[0][0]']               
+2025-04-06 19:21:12,893 [INFO]  spose)                                                                                           
+2025-04-06 19:21:12,893 [INFO]                                                                                                   
+2025-04-06 19:21:12,893 [INFO]  resizing_2 (Resizing)          (None, 56, 56, 256)  0           ['conv2d_transpose_2[0][0]']     
+2025-04-06 19:21:12,893 [INFO]                                                                                                   
+2025-04-06 19:21:12,893 [INFO]  concatenate_2 (Concatenate)    (None, 56, 56, 512)  0           ['resizing_2[0][0]',             
+2025-04-06 19:21:12,894 [INFO]                                                                   'conv2_block3_out[0][0]']       
+2025-04-06 19:21:12,894 [INFO]                                                                                                   
+2025-04-06 19:21:12,894 [INFO]  conv2d_4 (Conv2D)              (None, 56, 56, 256)  1179904     ['concatenate_2[0][0]']          
+2025-04-06 19:21:12,894 [INFO]                                                                                                   
+2025-04-06 19:21:12,894 [INFO]  conv2d_5 (Conv2D)              (None, 56, 56, 256)  590080      ['conv2d_4[0][0]']               
+2025-04-06 19:21:12,894 [INFO]                                                                                                   
+2025-04-06 19:21:12,894 [INFO]  conv2d_transpose_3 (Conv2DTran  (None, 112, 112, 25  590080     ['conv2d_5[0][0]']               
+2025-04-06 19:21:12,894 [INFO]  spose)                         6)                                                                
+2025-04-06 19:21:12,894 [INFO]                                                                                                   
+2025-04-06 19:21:12,894 [INFO]  resizing_3 (Resizing)          (None, 112, 112, 25  0           ['conv2d_transpose_3[0][0]']     
+2025-04-06 19:21:12,894 [INFO]                                 6)                                                                
+2025-04-06 19:21:12,895 [INFO]                                                                                                   
+2025-04-06 19:21:12,895 [INFO]  concatenate_3 (Concatenate)    (None, 112, 112, 32  0           ['resizing_3[0][0]',             
+2025-04-06 19:21:12,895 [INFO]                                 0)                                'conv1_relu[0][0]']             
+2025-04-06 19:21:12,895 [INFO]                                                                                                   
+2025-04-06 19:21:12,895 [INFO]  conv2d_6 (Conv2D)              (None, 112, 112, 25  737536      ['concatenate_3[0][0]']          
+2025-04-06 19:21:12,895 [INFO]                                 6)                                                                
+2025-04-06 19:21:12,895 [INFO]                                                                                                   
+2025-04-06 19:21:12,895 [INFO]  conv2d_7 (Conv2D)              (None, 112, 112, 25  590080      ['conv2d_6[0][0]']               
+2025-04-06 19:21:12,895 [INFO]                                 6)                                                                
+2025-04-06 19:21:12,896 [INFO]                                                                                                   
+2025-04-06 19:21:12,896 [INFO]  conv2d_transpose_4 (Conv2DTran  (None, 224, 224, 64  147520     ['conv2d_7[0][0]']               
+2025-04-06 19:21:12,896 [INFO]  spose)                         )                                                                 
+2025-04-06 19:21:12,896 [INFO]                                                                                                   
+2025-04-06 19:21:12,896 [INFO]  conv2d_8 (Conv2D)              (None, 224, 224, 32  18464       ['conv2d_transpose_4[0][0]']     
+2025-04-06 19:21:12,896 [INFO]                                 )                                                                 
+2025-04-06 19:21:12,896 [INFO]                                                                                                   
+2025-04-06 19:21:12,896 [INFO]  conv2d_9 (Conv2D)              (None, 224, 224, 1)  33          ['conv2d_8[0][0]']               
+2025-04-06 19:21:12,896 [INFO]                                                                                                   
+2025-04-06 19:21:12,896 [INFO] ==================================================================================================
+2025-04-06 19:21:12,899 [INFO] Total params: 39,239,681
+2025-04-06 19:21:12,899 [INFO] Trainable params: 15,651,969
+2025-04-06 19:21:12,899 [INFO] Non-trainable params: 23,587,712
+2025-04-06 19:21:12,900 [INFO] __________________________________________________________________________________________________
+2025-04-06 19:21:12,900 [INFO] Training model for 20 epochs...
+2025-04-06 21:41:34,532 [INFO] Training history plot saved to C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\models\checkpoints\ultrasound_resnet50_20250406-192111_history.png
+2025-04-06 21:41:34,554 [INFO] 
+================================================================================
+2025-04-06 21:41:34,554 [INFO] STEP: Evaluating Model
+2025-04-06 21:41:34,554 [INFO] ================================================================================
+2025-04-06 21:41:34,555 [INFO] Running standard evaluation...
+2025-04-06 21:42:11,745 [INFO]   loss: 0.0648
+2025-04-06 21:42:11,745 [INFO]   accuracy: 0.9834
+2025-04-06 21:42:11,745 [INFO]   precision: 0.9858
+2025-04-06 21:42:11,745 [INFO]   recall: 0.9974
+2025-04-06 21:42:11,745 [INFO]   binary_io_u: 0.6318
+2025-04-06 21:42:11,745 [INFO] Generating prediction visualizations...
+2025-04-06 21:42:20,208 [INFO] Evaluation visualizations saved to C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\models\evaluation\visualizations
+2025-04-06 21:42:20,209 [INFO] Evaluation metrics saved to C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\models\evaluation\evaluation_metrics.json
+2025-04-06 21:42:20,210 [INFO] 
+================================================================================
+2025-04-06 21:42:20,210 [INFO] PIPELINE COMPLETED in 11409.26 seconds (190.15 minutes)
+2025-04-06 21:42:20,211 [INFO] ================================================================================

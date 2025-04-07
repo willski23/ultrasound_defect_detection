@@ -1,0 +1,19 @@
+2025-03-03 21:15:18,145 [INFO] ================================================================================
+2025-03-03 21:15:18,145 [INFO] STARTING ULTRASOUND SEGMENTATION PIPELINE
+2025-03-03 21:15:18,145 [INFO] ================================================================================
+2025-03-03 21:15:18,145 [INFO] Start step: 1, End step: 6
+2025-03-03 21:15:18,145 [INFO] Batch size: 16, Epochs: 20
+2025-03-03 21:15:18,146 [INFO] Model type: resnet50
+2025-03-03 21:15:18,146 [INFO] Skip visualization: False
+2025-03-03 21:15:18,146 [INFO] Force continuation: False
+2025-03-03 21:15:18,148 [INFO] STEP: Converting MAT files to PNG images
+2025-03-03 21:15:18,148 [INFO] Command: C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\.venv\Scripts\python.exe C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\scripts\01_convert_data.py --input_dir C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\data\raw --output_dir C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\data\processed --inspect
+2025-03-03 21:15:18,928 [INFO]   Inspecting sample file: C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\data\raw\control_all_elements_on.mat
+2025-03-03 21:15:18,930 [INFO]   MAT file structure:
+2025-03-03 21:15:18,930 [INFO]   keys: ['__header__', '__version__', '__globals__', 'imgData', 'xAxis', 'zAxis', 'deadElements']
+2025-03-03 21:15:18,930 [INFO]   imgData_shape: (118, 128)
+2025-03-03 21:15:18,930 [INFO]   deadElements_shape: (1, 128)
+2025-03-03 21:15:18,930 [INFO]   xAxis_shape: (1, 128)
+2025-03-03 21:15:18,930 [INFO]   zAxis_shape: (1, 118)
+2025-03-03 21:15:18,930 [INFO]   Press Enter to continue with conversion, or Ctrl+C to abort.
+2025-03-03 21:15:25,307 [INFO]   Converting 3000 MAT files to PNG...

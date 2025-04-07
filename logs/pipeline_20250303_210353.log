@@ -1,0 +1,40 @@
+2025-03-03 21:03:53,008 [INFO] ================================================================================
+2025-03-03 21:03:53,009 [INFO] STARTING ULTRASOUND SEGMENTATION PIPELINE
+2025-03-03 21:03:53,009 [INFO] ================================================================================
+2025-03-03 21:03:53,009 [INFO] Start step: 1, End step: 6
+2025-03-03 21:03:53,009 [INFO] Batch size: 16, Epochs: 20
+2025-03-03 21:03:53,009 [INFO] Model type: resnet50
+2025-03-03 21:03:53,009 [INFO] Skip visualization: False
+2025-03-03 21:03:53,009 [INFO] Force continuation: False
+2025-03-03 21:03:53,009 [INFO] Project root: C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection
+2025-03-03 21:03:53,009 [INFO] Data directory: C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\data
+2025-03-03 21:03:53,009 [INFO] Raw data directory: C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\data\raw
+2025-03-03 21:03:53,009 [INFO] Verifying MAT files in C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\data\raw...
+2025-03-03 21:03:53,027 [INFO] Found 3000 MAT files.
+2025-03-03 21:03:53,027 [INFO] Verifying sample file: C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\data\raw\control_all_elements_on.mat
+2025-03-03 21:03:53,029 [INFO] imgData shape: (118, 128)
+2025-03-03 21:03:53,029 [INFO] deadElements shape: (1, 128)
+2025-03-03 21:03:53,029 [INFO] STEP: Converting MAT files to PNG images
+2025-03-03 21:03:53,029 [INFO] Command: C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\.venv\Scripts\python.exe C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\scripts\01_convert_data.py --input_dir C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\data\raw --output_dir C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\data\processed --inspect
+2025-03-03 21:03:53,801 [INFO]   Inspecting sample file: C:\Users\wbszy\PycharmProjects\ultrasound_defect_detection\data\raw\control_all_elements_on.mat
+2025-03-03 21:04:00,227 [ERROR]   
+2025-03-03 21:04:00,340 [INFO]   
+2025-03-03 21:04:00,493 [ERROR]   Converting MAT to PNG:   0%|          | 0/3000 [00:00<?, ?it/s]
+2025-03-03 21:04:00,595 [INFO]   MAT file structure:
+2025-03-03 21:04:00,689 [ERROR]   Converting MAT to PNG:   0%|          | 1/3000 [00:00<13:15,  3.77it/s]
+2025-03-03 21:04:00,802 [INFO]   keys: ['__header__', '__version__', '__globals__', 'imgData', 'xAxis', 'zAxis', 'deadElements']
+2025-03-03 21:04:00,900 [ERROR]   Converting MAT to PNG:   0%|          | 2/3000 [00:00<11:13,  4.45it/s]
+2025-03-03 21:04:01,009 [INFO]   imgData_shape: (118, 128)
+2025-03-03 21:04:01,109 [ERROR]   Converting MAT to PNG:   0%|          | 3/3000 [00:00<10:54,  4.58it/s]
+2025-03-03 21:04:01,216 [INFO]   deadElements_shape: (1, 128)
+2025-03-03 21:04:01,318 [ERROR]   Converting MAT to PNG:   0%|          | 4/3000 [00:00<10:43,  4.65it/s]
+2025-03-03 21:04:01,422 [INFO]   xAxis_shape: (1, 128)
+2025-03-03 21:04:01,530 [ERROR]   Converting MAT to PNG:   0%|          | 5/3000 [00:01<10:35,  4.71it/s]
+2025-03-03 21:04:01,644 [INFO]   zAxis_shape: (1, 118)
+2025-03-03 21:04:01,745 [ERROR]   Converting MAT to PNG:   0%|          | 6/3000 [00:01<10:36,  4.71it/s]
+2025-03-03 21:04:01,851 [INFO]   
+2025-03-03 21:04:01,968 [ERROR]   Converting MAT to PNG:   0%|          | 7/3000 [00:01<10:38,  4.68it/s]
+2025-03-03 21:04:02,073 [INFO]   Press Enter to continue with conversion, or Ctrl+C to abort.
+2025-03-03 21:04:02,194 [ERROR]   Converting MAT to PNG:   0%|          | 8/3000 [00:01<10:46,  4.63it/s]
+2025-03-03 21:04:02,295 [INFO]   Converting 3000 MAT files to PNG...
+2025-03-03 21:04:02,439 [ERROR]   Converting MAT to PNG:   0%|          | 9/3000 [00:01<10:56,  4.56it/s]
